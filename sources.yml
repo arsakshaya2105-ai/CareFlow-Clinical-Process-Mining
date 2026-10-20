@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: careflow_raw
+    database: careflow-512004.careflow_512004.careflow-512004
+    schema: careflow_dataset
+    tables:
+      - name: hospital_events

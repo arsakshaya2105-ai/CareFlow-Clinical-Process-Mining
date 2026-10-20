@@ -1,0 +1,27 @@
+CareFlow data-quality testing
+
+Run from `dbt_careflow/` after the profile and source are configured:
+
+```bash
+dbt debug
+dbt parse
+dbt run
+dbt test
+```
+
+The SQL files in `tests/` are  singular dbt tests. A passing test returns zero
+rows. A failing test returns the rows that violate the rule, so you can inspect
+the problem instead of only seeing a generic error.
+
+| Test | Expected failure condition |
+|---|---|
+| `source_has_rows.sql` | Raw source contains zero rows |
+| `source_required_fields.sql` | Case_ID, Event_ID, or Activity_Name is null/blank |
+| `source_bad_timestamps.sql` | Timestamp is null or cannot be parsed |
+| `source_duplicate_event_ids.sql` | Event_ID is blank or repeated |
+| `staging_has_rows.sql` | Staging model produces zero rows |
+| `staging.yml` tests | Staged key/activity/timestamp is null or Event_ID is not unique |
+
+These checks cover common data and setup errors, not every possible failure. A
+network outage, missing permission, wrong region, schema mismatch, or malformed
+SQL may fail during `dbt debug`, `dbt parse`, or `dbt run` before data tests run.

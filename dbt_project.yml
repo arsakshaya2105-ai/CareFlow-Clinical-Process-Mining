@@ -1,0 +1,11 @@
+name: dbt_careflow
+version: "1.0.0"
+config-version: 2
+profile: dbt_careflow
+model-paths: ["models"]
+test-paths: ["tests"]
+clean-targets: ["target", "dbt_packages"]
+models:
+  dbt_careflow:
+    staging:
+      +materialized: view

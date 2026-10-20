@@ -1,0 +1,12 @@
+# Copy to ~/.dbt/profiles.yml (Windows: %USERPROFILE%\.dbt\profiles.yml).
+# Replace placeholders and do not commit your real profiles.yml.
+dbt_careflow:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: YOUR_PROJECT_ID
+      dataset: careflow_dbt
+      threads: 4
+      location: YOUR_DATASET_LOCATION

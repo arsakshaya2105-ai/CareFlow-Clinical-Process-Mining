@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_hospital_events
+    description: "Cleaned event log used by CareFlow process-mining analysis."
+    columns:
+      - name: Case_ID
+        description: "Identifier for one synthetic patient journey."
+        data_tests:
+          - not_null
+      - name: Event_ID
+        description: "Unique identifier for an event in the source log."
+        data_tests:
+          - not_null
+          - unique
+      - name: Activity_Name
+        data_tests:
+          - not_null
+      - name: event_timestamp
+        data_tests:
+          - not_null
