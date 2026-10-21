@@ -1,0 +1,28 @@
+CareFlow Data Quality Report
+Source file: synthetic_event_logs(1).csv
+
+Input rows: 3472
+Rows removed for missing/blank required fields: 0
+Rows with invalid/unparseable timestamps (included in missing required filtering): 0
+Duplicate Event_ID rows removed: 0
+Output rows: 3472
+Unique cases: 500
+Unique Event_ID values: 3472
+Missing required values after cleaning: 0
+Repeated (case_id, activity_name) combinations: 536
+Cases with repeated triage activity: 126
+Cases with repeated consultation activity: 410
+
+Cleaning performed:
+- Standardized column names to lowercase.
+- Trimmed whitespace from text fields.
+- Lowercased activity names and collapsed repeated whitespace.
+- Parsed timestamps as UTC ISO-8601.
+- Removed rows missing required case/event/activity/timestamp values.
+- Removed duplicate Event_ID values, keeping the first valid occurrence.
+- Sorted events by case ID, timestamp, and event ID.
+
+Start activity counts by case: {'registration': 500}
+End activity counts by case: {'discharge': 500}
+
+Note: repeated activities are retained; they may be intentional process loops and are not automatically treated as errors.
