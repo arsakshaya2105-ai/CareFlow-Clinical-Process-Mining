@@ -1,0 +1,26 @@
+CARE FLOW - PROCESS DISCOVERY CODE EXECUTION REPORT
+===================================================
+
+Date: 2026-10-22
+Script: process_mining/discover_process.py
+Input tested: careflow_cleaned_event_logs.csv
+
+TEST RESULTS
+------------
+1. Python syntax compilation: PASS
+   Command: python -m py_compile process_mining/discover_process.py
+
+2. End-to-end offline execution: PASS
+   The script ran with pandas and the NetworkX/matplotlib fallback because PM4Py
+   is not installed in the test environment.
+
+3. Input records processed: 3,472
+4. Cases processed: 500
+5. Unique activities: 7
+6. Directly-follows transition types: 15
+7. Output files generated:
+   - process_mining/outputs/actual_process_map.png
+   - process_mining/outputs/activity_frequency.csv
+   - process_mining/outputs/repeated_activities.csv
+   - process_mining/outputs/process_summary.txt
+
