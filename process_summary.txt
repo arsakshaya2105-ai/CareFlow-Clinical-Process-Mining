@@ -1,0 +1,24 @@
+CareFlow Process Discovery Summary
+==================================
+Discovery engine: Offline fallback (pandas + NetworkX; NOT PM4Py)
+Input file: /mnt/data/careflow_cleaned_event_logs.csv
+Input rows: 3472
+Rows with invalid timestamps: 0
+Rows with missing required fields removed: 0
+Duplicate event-ID rows removed: 0
+Rows used for discovery: 3472
+Unique cases: 500
+Unique activities: 7
+Directly-follows transition types: 15
+Cases starting with registration: 500
+Cases ending with discharge: 500
+Cases with repeated triage: 126
+Cases with repeated consultation-related activity: 410
+
+Outputs:
+  /mnt/data/careflow_initial_process_map/actual_process_map.png
+  /mnt/data/careflow_initial_process_map/activity_frequency.csv
+  /mnt/data/careflow_initial_process_map/repeated_activities.csv
+  /mnt/data/careflow_initial_process_map/process_summary.txt
+
+Interpretation note: repeated activities are not automatically errors; review context.
