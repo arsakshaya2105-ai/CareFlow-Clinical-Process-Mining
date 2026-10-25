@@ -1,0 +1,537 @@
+case_id,activity_name,occurrences
+P00014,doctor consultation,3
+P00015,doctor consultation,3
+P00018,doctor consultation,3
+P00031,doctor consultation,3
+P00032,doctor consultation,3
+P00033,doctor consultation,3
+P00048,doctor consultation,3
+P00057,doctor consultation,3
+P00061,doctor consultation,3
+P00067,doctor consultation,3
+P00077,doctor consultation,3
+P00081,doctor consultation,3
+P00090,doctor consultation,3
+P00092,doctor consultation,3
+P00098,doctor consultation,3
+P00103,doctor consultation,3
+P00119,doctor consultation,3
+P00124,doctor consultation,3
+P00132,doctor consultation,3
+P00141,doctor consultation,3
+P00150,doctor consultation,3
+P00157,doctor consultation,3
+P00166,doctor consultation,3
+P00171,doctor consultation,3
+P00185,doctor consultation,3
+P00190,doctor consultation,3
+P00196,doctor consultation,3
+P00212,doctor consultation,3
+P00220,doctor consultation,3
+P00221,doctor consultation,3
+P00228,doctor consultation,3
+P00238,doctor consultation,3
+P00251,doctor consultation,3
+P00259,doctor consultation,3
+P00267,doctor consultation,3
+P00277,doctor consultation,3
+P00279,doctor consultation,3
+P00282,doctor consultation,3
+P00287,doctor consultation,3
+P00293,doctor consultation,3
+P00300,doctor consultation,3
+P00311,doctor consultation,3
+P00314,doctor consultation,3
+P00319,doctor consultation,3
+P00322,doctor consultation,3
+P00333,doctor consultation,3
+P00334,doctor consultation,3
+P00348,doctor consultation,3
+P00355,doctor consultation,3
+P00358,doctor consultation,3
+P00363,doctor consultation,3
+P00365,doctor consultation,3
+P00368,doctor consultation,3
+P00373,doctor consultation,3
+P00375,doctor consultation,3
+P00382,doctor consultation,3
+P00391,doctor consultation,3
+P00392,doctor consultation,3
+P00394,doctor consultation,3
+P00412,doctor consultation,3
+P00413,doctor consultation,3
+P00416,doctor consultation,3
+P00420,doctor consultation,3
+P00442,doctor consultation,3
+P00445,doctor consultation,3
+P00450,doctor consultation,3
+P00451,doctor consultation,3
+P00462,doctor consultation,3
+P00474,doctor consultation,3
+P00475,doctor consultation,3
+P00477,doctor consultation,3
+P00479,doctor consultation,3
+P00488,doctor consultation,3
+P00492,doctor consultation,3
+P00001,triage,2
+P00002,doctor consultation,2
+P00002,triage,2
+P00003,doctor consultation,2
+P00003,triage,2
+P00004,doctor consultation,2
+P00005,doctor consultation,2
+P00005,triage,2
+P00006,doctor consultation,2
+P00007,doctor consultation,2
+P00007,triage,2
+P00008,doctor consultation,2
+P00008,triage,2
+P00009,doctor consultation,2
+P00009,triage,2
+P00010,doctor consultation,2
+P00010,triage,2
+P00011,doctor consultation,2
+P00012,triage,2
+P00013,doctor consultation,2
+P00016,doctor consultation,2
+P00019,doctor consultation,2
+P00021,doctor consultation,2
+P00022,doctor consultation,2
+P00023,doctor consultation,2
+P00024,doctor consultation,2
+P00025,doctor consultation,2
+P00026,doctor consultation,2
+P00027,doctor consultation,2
+P00028,doctor consultation,2
+P00029,doctor consultation,2
+P00030,doctor consultation,2
+P00034,doctor consultation,2
+P00035,doctor consultation,2
+P00036,doctor consultation,2
+P00037,doctor consultation,2
+P00039,doctor consultation,2
+P00040,doctor consultation,2
+P00041,doctor consultation,2
+P00044,doctor consultation,2
+P00045,doctor consultation,2
+P00046,doctor consultation,2
+P00046,triage,2
+P00049,doctor consultation,2
+P00050,doctor consultation,2
+P00051,doctor consultation,2
+P00052,doctor consultation,2
+P00053,doctor consultation,2
+P00054,doctor consultation,2
+P00055,doctor consultation,2
+P00056,doctor consultation,2
+P00058,doctor consultation,2
+P00059,doctor consultation,2
+P00059,triage,2
+P00062,doctor consultation,2
+P00063,doctor consultation,2
+P00063,triage,2
+P00064,doctor consultation,2
+P00064,triage,2
+P00065,doctor consultation,2
+P00066,doctor consultation,2
+P00069,doctor consultation,2
+P00069,triage,2
+P00070,doctor consultation,2
+P00071,doctor consultation,2
+P00072,doctor consultation,2
+P00073,doctor consultation,2
+P00074,doctor consultation,2
+P00075,doctor consultation,2
+P00076,doctor consultation,2
+P00079,doctor consultation,2
+P00080,doctor consultation,2
+P00080,triage,2
+P00082,doctor consultation,2
+P00083,triage,2
+P00084,doctor consultation,2
+P00084,triage,2
+P00085,doctor consultation,2
+P00085,triage,2
+P00086,doctor consultation,2
+P00086,triage,2
+P00087,doctor consultation,2
+P00087,triage,2
+P00088,doctor consultation,2
+P00088,triage,2
+P00089,doctor consultation,2
+P00091,doctor consultation,2
+P00093,doctor consultation,2
+P00093,triage,2
+P00094,doctor consultation,2
+P00095,doctor consultation,2
+P00096,doctor consultation,2
+P00099,doctor consultation,2
+P00100,triage,2
+P00101,doctor consultation,2
+P00102,doctor consultation,2
+P00104,doctor consultation,2
+P00106,doctor consultation,2
+P00108,doctor consultation,2
+P00108,triage,2
+P00109,triage,2
+P00110,doctor consultation,2
+P00111,doctor consultation,2
+P00112,doctor consultation,2
+P00113,doctor consultation,2
+P00114,doctor consultation,2
+P00115,doctor consultation,2
+P00116,doctor consultation,2
+P00118,doctor consultation,2
+P00120,doctor consultation,2
+P00120,triage,2
+P00121,doctor consultation,2
+P00122,doctor consultation,2
+P00122,triage,2
+P00125,doctor consultation,2
+P00126,doctor consultation,2
+P00127,doctor consultation,2
+P00127,triage,2
+P00128,doctor consultation,2
+P00129,doctor consultation,2
+P00130,doctor consultation,2
+P00131,doctor consultation,2
+P00134,doctor consultation,2
+P00136,doctor consultation,2
+P00137,doctor consultation,2
+P00138,doctor consultation,2
+P00139,doctor consultation,2
+P00140,doctor consultation,2
+P00142,doctor consultation,2
+P00143,doctor consultation,2
+P00144,doctor consultation,2
+P00145,doctor consultation,2
+P00146,doctor consultation,2
+P00147,doctor consultation,2
+P00148,doctor consultation,2
+P00149,triage,2
+P00151,doctor consultation,2
+P00151,triage,2
+P00152,triage,2
+P00153,doctor consultation,2
+P00154,doctor consultation,2
+P00154,triage,2
+P00155,doctor consultation,2
+P00156,doctor consultation,2
+P00156,triage,2
+P00158,doctor consultation,2
+P00159,doctor consultation,2
+P00160,doctor consultation,2
+P00161,doctor consultation,2
+P00162,doctor consultation,2
+P00163,doctor consultation,2
+P00164,doctor consultation,2
+P00165,doctor consultation,2
+P00165,triage,2
+P00167,doctor consultation,2
+P00168,doctor consultation,2
+P00169,doctor consultation,2
+P00169,triage,2
+P00170,doctor consultation,2
+P00172,doctor consultation,2
+P00172,triage,2
+P00174,doctor consultation,2
+P00174,triage,2
+P00175,doctor consultation,2
+P00176,doctor consultation,2
+P00177,doctor consultation,2
+P00178,doctor consultation,2
+P00179,doctor consultation,2
+P00181,doctor consultation,2
+P00183,doctor consultation,2
+P00184,doctor consultation,2
+P00184,triage,2
+P00186,doctor consultation,2
+P00187,doctor consultation,2
+P00188,doctor consultation,2
+P00189,triage,2
+P00191,doctor consultation,2
+P00191,triage,2
+P00192,doctor consultation,2
+P00193,doctor consultation,2
+P00194,doctor consultation,2
+P00195,doctor consultation,2
+P00197,doctor consultation,2
+P00197,triage,2
+P00198,doctor consultation,2
+P00199,doctor consultation,2
+P00199,triage,2
+P00200,triage,2
+P00201,doctor consultation,2
+P00202,doctor consultation,2
+P00205,doctor consultation,2
+P00206,doctor consultation,2
+P00207,doctor consultation,2
+P00208,doctor consultation,2
+P00210,doctor consultation,2
+P00211,doctor consultation,2
+P00213,doctor consultation,2
+P00215,doctor consultation,2
+P00215,triage,2
+P00216,doctor consultation,2
+P00216,triage,2
+P00217,doctor consultation,2
+P00219,doctor consultation,2
+P00223,triage,2
+P00224,doctor consultation,2
+P00225,doctor consultation,2
+P00229,triage,2
+P00230,doctor consultation,2
+P00231,doctor consultation,2
+P00232,doctor consultation,2
+P00235,doctor consultation,2
+P00235,triage,2
+P00236,doctor consultation,2
+P00237,doctor consultation,2
+P00237,triage,2
+P00239,doctor consultation,2
+P00240,doctor consultation,2
+P00240,triage,2
+P00241,doctor consultation,2
+P00242,doctor consultation,2
+P00242,triage,2
+P00243,triage,2
+P00244,doctor consultation,2
+P00244,triage,2
+P00245,doctor consultation,2
+P00246,triage,2
+P00247,doctor consultation,2
+P00248,doctor consultation,2
+P00248,triage,2
+P00249,doctor consultation,2
+P00249,triage,2
+P00250,doctor consultation,2
+P00252,doctor consultation,2
+P00253,doctor consultation,2
+P00253,triage,2
+P00254,doctor consultation,2
+P00254,triage,2
+P00255,doctor consultation,2
+P00255,triage,2
+P00256,doctor consultation,2
+P00256,triage,2
+P00257,doctor consultation,2
+P00258,triage,2
+P00260,doctor consultation,2
+P00261,doctor consultation,2
+P00261,triage,2
+P00262,doctor consultation,2
+P00262,triage,2
+P00263,doctor consultation,2
+P00264,doctor consultation,2
+P00265,doctor consultation,2
+P00266,doctor consultation,2
+P00269,doctor consultation,2
+P00269,triage,2
+P00270,doctor consultation,2
+P00270,triage,2
+P00271,doctor consultation,2
+P00272,triage,2
+P00273,doctor consultation,2
+P00273,triage,2
+P00274,doctor consultation,2
+P00275,doctor consultation,2
+P00275,triage,2
+P00276,doctor consultation,2
+P00276,triage,2
+P00278,doctor consultation,2
+P00280,triage,2
+P00281,doctor consultation,2
+P00283,triage,2
+P00284,doctor consultation,2
+P00286,doctor consultation,2
+P00286,triage,2
+P00289,doctor consultation,2
+P00290,doctor consultation,2
+P00291,doctor consultation,2
+P00292,doctor consultation,2
+P00292,triage,2
+P00294,doctor consultation,2
+P00296,doctor consultation,2
+P00298,doctor consultation,2
+P00298,triage,2
+P00299,doctor consultation,2
+P00299,triage,2
+P00301,doctor consultation,2
+P00302,doctor consultation,2
+P00302,triage,2
+P00303,doctor consultation,2
+P00304,doctor consultation,2
+P00305,doctor consultation,2
+P00306,doctor consultation,2
+P00306,triage,2
+P00308,doctor consultation,2
+P00309,doctor consultation,2
+P00309,triage,2
+P00310,doctor consultation,2
+P00312,doctor consultation,2
+P00312,triage,2
+P00313,doctor consultation,2
+P00315,doctor consultation,2
+P00316,triage,2
+P00317,triage,2
+P00318,doctor consultation,2
+P00320,doctor consultation,2
+P00321,doctor consultation,2
+P00323,doctor consultation,2
+P00324,doctor consultation,2
+P00325,doctor consultation,2
+P00326,doctor consultation,2
+P00327,doctor consultation,2
+P00328,doctor consultation,2
+P00329,doctor consultation,2
+P00330,doctor consultation,2
+P00330,triage,2
+P00331,doctor consultation,2
+P00331,triage,2
+P00335,doctor consultation,2
+P00336,doctor consultation,2
+P00337,doctor consultation,2
+P00338,doctor consultation,2
+P00338,triage,2
+P00339,doctor consultation,2
+P00339,triage,2
+P00340,doctor consultation,2
+P00341,doctor consultation,2
+P00342,doctor consultation,2
+P00342,triage,2
+P00343,doctor consultation,2
+P00345,doctor consultation,2
+P00346,doctor consultation,2
+P00347,doctor consultation,2
+P00347,triage,2
+P00349,doctor consultation,2
+P00350,doctor consultation,2
+P00351,doctor consultation,2
+P00353,doctor consultation,2
+P00353,triage,2
+P00356,doctor consultation,2
+P00357,doctor consultation,2
+P00359,doctor consultation,2
+P00360,doctor consultation,2
+P00361,doctor consultation,2
+P00362,doctor consultation,2
+P00364,doctor consultation,2
+P00366,doctor consultation,2
+P00369,doctor consultation,2
+P00370,doctor consultation,2
+P00372,triage,2
+P00376,doctor consultation,2
+P00377,doctor consultation,2
+P00378,doctor consultation,2
+P00378,triage,2
+P00379,doctor consultation,2
+P00380,doctor consultation,2
+P00383,doctor consultation,2
+P00384,doctor consultation,2
+P00384,triage,2
+P00386,triage,2
+P00388,doctor consultation,2
+P00389,doctor consultation,2
+P00389,triage,2
+P00393,doctor consultation,2
+P00395,doctor consultation,2
+P00395,triage,2
+P00396,doctor consultation,2
+P00397,doctor consultation,2
+P00399,doctor consultation,2
+P00399,triage,2
+P00400,triage,2
+P00401,doctor consultation,2
+P00402,doctor consultation,2
+P00404,doctor consultation,2
+P00404,triage,2
+P00405,triage,2
+P00406,doctor consultation,2
+P00407,doctor consultation,2
+P00407,triage,2
+P00408,doctor consultation,2
+P00408,triage,2
+P00409,doctor consultation,2
+P00411,doctor consultation,2
+P00411,triage,2
+P00414,doctor consultation,2
+P00414,triage,2
+P00415,doctor consultation,2
+P00417,doctor consultation,2
+P00418,doctor consultation,2
+P00419,doctor consultation,2
+P00421,doctor consultation,2
+P00421,triage,2
+P00422,doctor consultation,2
+P00423,triage,2
+P00424,doctor consultation,2
+P00424,triage,2
+P00425,doctor consultation,2
+P00426,doctor consultation,2
+P00427,triage,2
+P00428,doctor consultation,2
+P00429,doctor consultation,2
+P00429,triage,2
+P00430,doctor consultation,2
+P00433,doctor consultation,2
+P00434,doctor consultation,2
+P00435,doctor consultation,2
+P00437,doctor consultation,2
+P00438,doctor consultation,2
+P00439,doctor consultation,2
+P00439,triage,2
+P00440,doctor consultation,2
+P00441,doctor consultation,2
+P00441,triage,2
+P00444,doctor consultation,2
+P00446,triage,2
+P00447,doctor consultation,2
+P00447,triage,2
+P00448,doctor consultation,2
+P00449,doctor consultation,2
+P00449,triage,2
+P00453,doctor consultation,2
+P00453,triage,2
+P00454,doctor consultation,2
+P00455,doctor consultation,2
+P00456,doctor consultation,2
+P00456,triage,2
+P00457,doctor consultation,2
+P00458,triage,2
+P00459,doctor consultation,2
+P00459,triage,2
+P00460,doctor consultation,2
+P00461,doctor consultation,2
+P00463,doctor consultation,2
+P00464,triage,2
+P00466,doctor consultation,2
+P00467,triage,2
+P00468,triage,2
+P00469,doctor consultation,2
+P00470,doctor consultation,2
+P00471,doctor consultation,2
+P00471,triage,2
+P00473,doctor consultation,2
+P00476,doctor consultation,2
+P00478,doctor consultation,2
+P00480,doctor consultation,2
+P00481,doctor consultation,2
+P00482,doctor consultation,2
+P00483,doctor consultation,2
+P00484,doctor consultation,2
+P00484,triage,2
+P00485,triage,2
+P00486,doctor consultation,2
+P00487,doctor consultation,2
+P00487,triage,2
+P00489,doctor consultation,2
+P00490,doctor consultation,2
+P00491,doctor consultation,2
+P00494,doctor consultation,2
+P00495,triage,2
+P00496,doctor consultation,2
+P00497,doctor consultation,2
+P00497,triage,2
+P00499,doctor consultation,2
+P00499,triage,2
+P00500,doctor consultation,2
