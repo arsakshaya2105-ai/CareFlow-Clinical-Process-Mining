@@ -2,20 +2,15 @@ version: 2
 
 models:
   - name: stg_hospital_events
-    description: "Cleaned event log used by CareFlow process-mining analysis."
+    description: "Typed, deduplicated source events with trimmed activity labels and parsed BigQuery timestamps. Invalid required fields and invalid timestamps are excluded."
     columns:
-      - name: Case_ID
-        description: "Identifier for one synthetic patient journey."
-        data_tests:
-          - not_null
-      - name: Event_ID
-        description: "Unique identifier for an event in the source log."
-        data_tests:
-          - not_null
-          - unique
-      - name: Activity_Name
-        data_tests:
-          - not_null
+      - name: case_id
+        tests: [not_null]
+      - name: event_id
+        tests: [not_null, unique]
+      - name: activity_name_normalized
+        tests: [not_null]
       - name: event_timestamp
-        data_tests:
-          - not_null
+        tests: [not_null]
+      - name: event_date
+        tests: [not_null]

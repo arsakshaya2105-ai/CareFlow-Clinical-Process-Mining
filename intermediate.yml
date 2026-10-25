@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: int_activity_events
+    description: "Canonical activity names and elapsed minutes since the previous event for each case."
+    columns:
+      - name: case_id
+        tests: [not_null]
+      - name: event_id
+        tests: [not_null, unique]
+      - name: activity_name
+        tests: [not_null]
+      - name: event_timestamp
+        tests: [not_null]
