@@ -1,0 +1,18 @@
+CareFlow PM4Py event-log preparation report
+
+CSV input: careflow_cleaned_event_logs.csv
+XES output: careflow_event_log.xes
+Rows retained: 3,472
+Cases: 500
+Distinct activity labels: 7
+Invalid timestamps remaining: 0
+
+Status:
+- CSV validation and sorting: completed.
+- XES file creation: completed.
+- PM4Py package installed in this environment: no.
+- Genuine PM4Py API execution: not verified due package-server DNS/network failure.
+
+The XES was generated from the cleaned CSV using Python XML tools so it can be imported by PM4Py. To run the genuine PM4Py loader locally:
+python -m pip install pandas pm4py
+python process_mining/load_event_log_pm4py.py --input data/careflow_cleaned_event_logs.csv
