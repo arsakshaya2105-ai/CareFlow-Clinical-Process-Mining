@@ -1,0 +1,62 @@
+CAREFLOW – PATIENT JOURNEY PROCESS DISCOVERY REPORT
+==========================================================
+
+Method
+This report derives a directly-follows graph (DFG) from the cleaned event log.
+Events are ordered by case ID, timestamp, and event ID. Each edge count records
+how often one activity is immediately followed by another across all cases.
+This is a data-derived process model; PM4Py was not installed in this runtime,
+so PM4Py's discovery API was not executed or validated.
+
+Dataset overview
+- Cases: 500
+- Events: 3,472
+- Distinct activities: 7
+- Distinct directly-follows transitions: 15
+- Cases with any repeated activity: 442
+- Cases with repeated triage: 126
+- Cases with repeated doctor consultation: 410
+
+Observed start and end activities
+- Start activity: registration (500 cases)
+- End activity: discharge (500 cases)
+
+Most frequent directly-follows transitions
+- triage -> doctor consultation: 594
+- registration -> triage: 500
+- doctor consultation -> treatment: 347
+- treatment -> discharge: 347
+- doctor consultation -> x-ray: 198
+- doctor consultation -> laboratory test: 195
+- doctor consultation -> discharge: 153
+- x-ray -> doctor consultation: 151
+- laboratory test -> doctor consultation: 148
+- doctor consultation -> doctor consultation: 91
+- x-ray -> laboratory test: 64
+- laboratory test -> x-ray: 58
+- laboratory test -> triage: 53
+- x-ray -> triage: 41
+- triage -> triage: 32
+
+Five most common complete activity sequences
+- 54 cases: registration -> triage -> doctor consultation -> laboratory test -> doctor consultation -> treatment -> discharge
+- 53 cases: registration -> triage -> doctor consultation -> x-ray -> doctor consultation -> treatment -> discharge
+- 42 cases: registration -> triage -> doctor consultation -> treatment -> discharge
+- 28 cases: registration -> triage -> doctor consultation -> laboratory test -> triage -> doctor consultation -> treatment -> discharge
+- 25 cases: registration -> triage -> doctor consultation -> x-ray -> doctor consultation -> discharge
+
+Interpretation
+The dominant pathway starts with Registration followed by Triage and Doctor
+Consultation. Diagnostic steps (Laboratory Test and X-Ray) commonly lead back
+to Doctor Consultation, after which cases may proceed to Treatment and Discharge.
+Some cases contain repeated triage or consultation events. These loops are
+observable workflow patterns, not proof of unnecessary care or inefficiency.
+
+Limitations
+- The graph represents directly-following transitions, not a clinical guideline.
+- Transition counts are event-log observations and may include repeated edges
+  within a case.
+- No conformance score or bottleneck diagnosis is claimed in this report.
+- Timing/waiting-time analysis is not included in this process model.
+- Validate the model with PM4Py in the project environment before describing
+  it as PM4Py-discovered.
