@@ -1,0 +1,59 @@
+CAREFLOW – ACTIVITY SEQUENCE AND TRANSITION ANALYSIS
+============================================================
+
+Dataset
+- Cases analyzed: 500
+- Events analyzed: 3472
+- Activities: 7
+- Adjacent transitions counted: 2972
+- Unique transition types: 15
+- Cases containing at least one repeated activity: 442
+- Adjacent same-activity repeats: 123
+
+Most frequent activity transitions:
+- triage -> doctor consultation: 594 (19.99%)
+- registration -> triage: 500 (16.82%)
+- doctor consultation -> treatment: 347 (11.68%)
+- treatment -> discharge: 347 (11.68%)
+- doctor consultation -> x-ray: 198 (6.66%)
+- doctor consultation -> laboratory test: 195 (6.56%)
+- doctor consultation -> discharge: 153 (5.15%)
+- x-ray -> doctor consultation: 151 (5.08%)
+- laboratory test -> doctor consultation: 148 (4.98%)
+- doctor consultation -> doctor consultation: 91 (3.06%)
+- x-ray -> laboratory test: 64 (2.15%)
+- laboratory test -> x-ray: 58 (1.95%)
+- laboratory test -> triage: 53 (1.78%)
+- x-ray -> triage: 41 (1.38%)
+- triage -> triage: 32 (1.08%)
+
+Most frequent complete case sequences:
+- 54 cases (10.8%): registration → triage → doctor consultation → laboratory test → doctor consultation → treatment → discharge
+- 53 cases (10.6%): registration → triage → doctor consultation → x-ray → doctor consultation → treatment → discharge
+- 42 cases (8.4%): registration → triage → doctor consultation → treatment → discharge
+- 28 cases (5.6%): registration → triage → doctor consultation → laboratory test → triage → doctor consultation → treatment → discharge
+- 25 cases (5.0%): registration → triage → doctor consultation → x-ray → doctor consultation → discharge
+- 24 cases (4.8%): registration → triage → triage → doctor consultation → treatment → discharge
+- 23 cases (4.6%): registration → triage → doctor consultation → x-ray → laboratory test → doctor consultation → treatment → discharge
+- 23 cases (4.6%): registration → triage → doctor consultation → laboratory test → doctor consultation → discharge
+- 21 cases (4.2%): registration → triage → doctor consultation → x-ray → triage → doctor consultation → treatment → discharge
+- 20 cases (4.0%): registration → triage → doctor consultation → laboratory test → x-ray → doctor consultation → treatment → discharge
+
+Repeated activities by cases:
+- doctor consultation: 410 cases
+- triage: 126 cases
+
+Interpretation:
+Registration -> Triage is a common initial transition. Triage -> Doctor Consultation
+is the most frequent adjacent transition. Doctor Consultation is followed by diagnostic
+activities (Laboratory Test or X-Ray) in many sequences, and diagnostic activities may
+be followed by another consultation. Treatment -> Discharge is a common terminal transition.
+Repeated activities and loops are observable patterns; they are not, by themselves, proof
+of unnecessary care, delay, or poor performance.
+
+Method and limitations:
+Events were sorted by case_id, event_timestamp, and event_id. A transition is counted
+whenever one event is immediately followed by another event in the same case.
+Complete sequence variants are exact ordered activity lists. This is descriptive
+event-log analysis; it does not establish causation or clinical appropriateness.
+PM4Py discovery was not executed in this environment.
