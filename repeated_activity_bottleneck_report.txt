@@ -1,0 +1,42 @@
+CAREFLOW – REPEATED ACTIVITIES AND POSSIBLE WORKFLOW BOTTLENECKS
+====================================================================
+
+Dataset and method
+- Cases analyzed: 500
+- Events analyzed: 3,472
+- Activities: 7
+- Repeated activity means the same activity occurs more than once within a case.
+- Waiting interval is the elapsed time between consecutive recorded events.
+- Long intervals are signals for review, not proof of operational delay.
+
+Repeated activity findings
+- doctor consultation: 410 cases (82.0% of all cases); maximum 3 occurrences in one case.
+- triage: 126 cases (25.2% of all cases); maximum 2 occurrences in one case.
+
+Transitions with the longest 90th-percentile intervals (P90)
+- laboratory test -> triage: 53 observations; median 45.0 min; P90 156.4 min; >60 min 15 observations.
+- doctor consultation -> doctor consultation: 91 observations; median 34.0 min; P90 147.0 min; >60 min 20 observations.
+- treatment -> discharge: 347 observations; median 54.0 min; P90 139.0 min; >60 min 150 observations.
+- doctor consultation -> x-ray: 198 observations; median 30.0 min; P90 133.6 min; >60 min 32 observations.
+- x-ray -> laboratory test: 64 observations; median 43.5 min; P90 129.9 min; >60 min 16 observations.
+- doctor consultation -> treatment: 347 observations; median 33.0 min; P90 128.8 min; >60 min 81 observations.
+- x-ray -> triage: 41 observations; median 45.0 min; P90 127.0 min; >60 min 8 observations.
+- registration -> triage: 500 observations; median 7.0 min; P90 126.1 min; >60 min 88 observations.
+- laboratory test -> doctor consultation: 148 observations; median 47.0 min; P90 121.9 min; >60 min 48 observations.
+- triage -> doctor consultation: 594 observations; median 14.0 min; P90 118.7 min; >60 min 99 observations.
+
+Patient journey duration (first to last recorded event per case)
+- Median: 4.22 hours
+- Mean: 4.36 hours
+- 90th percentile: 7.07 hours
+
+Interpretation and possible areas to investigate
+- Repeated consultation and triage are the clearest rework/reassessment patterns in this event log.
+- Long gaps after specific activities may indicate waiting, but can also reflect clinically appropriate observation, off-system work, or timestamp capture practices.
+- Review high-frequency loops and long-gap transitions with clinical/process owners before labeling them bottlenecks.
+
+Limitations
+- This is observational analysis of synthetic event-log timestamps.
+- A gap between two event timestamps is not necessarily the actual queue or service waiting time.
+- Repeated activities may be clinically appropriate reassessment or follow-up.
+- No causal claims, clinical quality judgments, or proven efficiency losses are made.
