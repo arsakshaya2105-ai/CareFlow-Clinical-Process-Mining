@@ -1,0 +1,3 @@
+activity_name,cases_with_repeat,events_in_repeated_cases,max_occurrences_in_one_case,pct_of_all_cases
+doctor consultation,410,894,3,82.0
+triage,126,252,2,25.2
