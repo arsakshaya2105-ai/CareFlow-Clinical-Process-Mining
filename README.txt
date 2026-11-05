@@ -1,28 +1,21 @@
-# CareFlow – Process Mining (PM4Py)
+CareFlow analysis deliverables
 
-## Files
-- `process_mining/discover_process.py`: executable process-discovery script
-- `synthetic_event_logs.csv`: input event-log dataset
-- `requirements.txt`: Python dependencies
-- `outputs/`: created automatically when the script runs
+1) process_mining/conformance_check.py
+   Configurable rule-based conformance checker for the reference pathway.
+   It outputs case-level results, transition-level results, and summary CSV.
+   It is NOT PM4Py token replay. The reference rules are documented in the script.
 
-## Requirements
-Install Python 3.10 or newer and VS Code. During Python installation on Windows, enable **Add Python to PATH**.
+2) sql/careflow_operational_kpis_bigquery.sql
+   BigQuery Standard SQL templates for journey duration, activity volume,
+   repeated activities, inter-event gaps, and start/end validation.
+   Replace the placeholder project/dataset/table before running in BigQuery.
 
-## Run on Windows
-1. Extract this ZIP file.
-2. Open the extracted `careflow_process_mining` folder in VS Code.
-3. Open **Terminal > New Terminal**.
-4. Check Python: `py --version`
-5. Install dependencies: `py -m pip install -r requirements.txt`
-6. Run the script: `py process_mining/discover_process.py`
+3) outputs/
+   Contains results generated from the supplied cleaned CSV. The KPI calculations
+   were executed locally using SQLite-compatible SQL over the CSV, not in the
+   user's BigQuery project. BigQuery execution remains pending until credentials,
+   dataset, and table are configured.
 
-If `py` is not recognized, try `python --version`, then use `python -m pip install -r requirements.txt` and `python process_mining/discover_process.py`.
-
-## Output
-The script creates an `outputs` folder containing CSV reports for activity counts, observed process transitions, waiting-time estimates between consecutive events, and patient journey durations. It also attempts to create `process_map.png`. PNG visualization may require Graphviz to be installed separately; the CSV reports do not depend on that visualization succeeding.
-
-## Dataset columns used
-`Case_ID`, `Activity_Name`, and `Timestamp`. Other columns in the dataset are retained in the input file but are not required for process discovery.
-
-Note: the dataset contains synthetic/mock hospital events. Findings should be described as analysis of the provided synthetic data, not real patient outcomes.
+Interpretation caution:
+Event-to-event elapsed time is not necessarily queue waiting time. Repeated
+activities and conformance deviations need clinical/process-owner review.

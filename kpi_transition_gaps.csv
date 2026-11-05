@@ -1,0 +1,16 @@
+activity,next_activity,transition_count,mean_gap_minutes,max_gap_minutes,gaps_over_60_min
+treatment,discharge,347,64.8,244.0,150
+laboratory test,x-ray,58,59.4,227.0,21
+laboratory test,doctor consultation,148,57.9,225.0,49
+doctor consultation,doctor consultation,91,53.3,223.0,20
+doctor consultation,x-ray,198,45.0,223.0,32
+doctor consultation,treatment,347,49.1,214.0,81
+x-ray,laboratory test,64,57.9,213.0,17
+doctor consultation,laboratory test,195,41.2,208.0,30
+x-ray,doctor consultation,151,48.3,203.0,25
+x-ray,triage,41,55.8,203.0,9
+doctor consultation,discharge,153,42.0,202.0,24
+laboratory test,triage,53,62.6,198.0,15
+triage,doctor consultation,594,32.7,198.0,99
+registration,triage,500,28.4,185.0,89
+triage,triage,32,26.8,146.0,5

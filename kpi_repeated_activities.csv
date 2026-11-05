@@ -1,0 +1,8 @@
+activity,cases_with_repeat,pct_all_cases,max_occurrences_in_one_case
+doctor consultation,410,82.0,3
+triage,126,25.2,2
+x-ray,0,0.0,1
+treatment,0,0.0,1
+registration,0,0.0,1
+laboratory test,0,0.0,1
+discharge,0,0.0,1

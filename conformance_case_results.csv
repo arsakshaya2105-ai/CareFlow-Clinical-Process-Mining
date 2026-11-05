@@ -1,0 +1,501 @@
+case_id,event_count,start_activity,end_activity,conforms,violation_count,violations
+P00001,6,registration,discharge,True,0,
+P00002,7,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00003,7,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00004,7,registration,discharge,True,0,
+P00005,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00006,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00007,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00008,7,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00009,9,registration,discharge,False,2,Unexpected transition: laboratory test -> x-ray | Unexpected transition: x-ray -> triage
+P00010,9,registration,discharge,False,2,Unexpected transition: x-ray -> laboratory test | Unexpected transition: laboratory test -> triage
+P00011,7,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00012,6,registration,discharge,True,0,
+P00013,6,registration,discharge,True,0,
+P00014,7,registration,discharge,True,0,
+P00015,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00016,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00017,4,registration,discharge,True,0,
+P00018,9,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00019,6,registration,discharge,True,0,
+P00020,4,registration,discharge,True,0,
+P00021,7,registration,discharge,True,0,
+P00022,7,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00023,7,registration,discharge,True,0,
+P00024,7,registration,discharge,True,0,
+P00025,7,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00026,6,registration,discharge,True,0,
+P00027,7,registration,discharge,True,0,
+P00028,6,registration,discharge,True,0,
+P00029,7,registration,discharge,True,0,
+P00030,7,registration,discharge,True,0,
+P00031,8,registration,discharge,True,0,
+P00032,8,registration,discharge,True,0,
+P00033,9,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00034,7,registration,discharge,True,0,
+P00035,7,registration,discharge,True,0,
+P00036,7,registration,discharge,True,0,
+P00037,7,registration,discharge,True,0,
+P00038,5,registration,discharge,True,0,
+P00039,7,registration,discharge,True,0,
+P00040,7,registration,discharge,True,0,
+P00041,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00042,4,registration,discharge,True,0,
+P00043,5,registration,discharge,True,0,
+P00044,6,registration,discharge,True,0,
+P00045,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00046,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00047,4,registration,discharge,True,0,
+P00048,7,registration,discharge,True,0,
+P00049,7,registration,discharge,True,0,
+P00050,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00051,7,registration,discharge,True,0,
+P00052,6,registration,discharge,True,0,
+P00053,6,registration,discharge,True,0,
+P00054,7,registration,discharge,True,0,
+P00055,7,registration,discharge,True,0,
+P00056,7,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00057,8,registration,discharge,True,0,
+P00058,6,registration,discharge,True,0,
+P00059,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00060,5,registration,discharge,True,0,
+P00061,7,registration,discharge,True,0,
+P00062,7,registration,discharge,True,0,
+P00063,9,registration,discharge,False,2,Unexpected transition: x-ray -> laboratory test | Unexpected transition: laboratory test -> triage
+P00064,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00065,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00066,7,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00067,7,registration,discharge,True,0,
+P00068,5,registration,discharge,True,0,
+P00069,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00070,7,registration,discharge,True,0,
+P00071,5,registration,discharge,True,0,
+P00072,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00073,7,registration,discharge,True,0,
+P00074,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00075,6,registration,discharge,True,0,
+P00076,7,registration,discharge,True,0,
+P00077,8,registration,discharge,True,0,
+P00078,5,registration,discharge,True,0,
+P00079,7,registration,discharge,True,0,
+P00080,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00081,8,registration,discharge,True,0,
+P00082,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00083,6,registration,discharge,True,0,
+P00084,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00085,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00086,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00087,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00088,9,registration,discharge,False,2,Unexpected transition: x-ray -> laboratory test | Unexpected transition: laboratory test -> triage
+P00089,7,registration,discharge,True,0,
+P00090,8,registration,discharge,True,0,
+P00091,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00092,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00093,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00094,7,registration,discharge,True,0,
+P00095,7,registration,discharge,True,0,
+P00096,7,registration,discharge,True,0,
+P00097,5,registration,discharge,True,0,
+P00098,9,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00099,6,registration,discharge,True,0,
+P00100,6,registration,discharge,True,0,
+P00101,7,registration,discharge,True,0,
+P00102,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00103,9,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00104,7,registration,discharge,True,0,
+P00105,5,registration,discharge,True,0,
+P00106,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00107,5,registration,discharge,True,0,
+P00108,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00109,6,registration,discharge,True,0,
+P00110,6,registration,discharge,True,0,
+P00111,7,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00112,6,registration,discharge,True,0,
+P00113,7,registration,discharge,True,0,
+P00114,6,registration,discharge,True,0,
+P00115,6,registration,discharge,True,0,
+P00116,6,registration,discharge,True,0,
+P00117,5,registration,discharge,True,0,
+P00118,6,registration,discharge,True,0,
+P00119,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00120,7,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00121,7,registration,discharge,True,0,
+P00122,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00123,5,registration,discharge,True,0,
+P00124,8,registration,discharge,True,0,
+P00125,7,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00126,7,registration,discharge,True,0,
+P00127,7,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00128,7,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00129,7,registration,discharge,True,0,
+P00130,7,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00131,7,registration,discharge,True,0,
+P00132,8,registration,discharge,True,0,
+P00133,5,registration,discharge,True,0,
+P00134,7,registration,discharge,True,0,
+P00135,5,registration,discharge,True,0,
+P00136,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00137,7,registration,discharge,True,0,
+P00138,7,registration,discharge,True,0,
+P00139,6,registration,discharge,True,0,
+P00140,7,registration,discharge,True,0,
+P00141,7,registration,discharge,True,0,
+P00142,7,registration,discharge,True,0,
+P00143,7,registration,discharge,True,0,
+P00144,7,registration,discharge,True,0,
+P00145,7,registration,discharge,True,0,
+P00146,6,registration,discharge,True,0,
+P00147,7,registration,discharge,True,0,
+P00148,7,registration,discharge,True,0,
+P00149,6,registration,discharge,True,0,
+P00150,7,registration,discharge,True,0,
+P00151,9,registration,discharge,False,2,Unexpected transition: x-ray -> laboratory test | Unexpected transition: laboratory test -> triage
+P00152,6,registration,discharge,True,0,
+P00153,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00154,7,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00155,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00156,8,registration,discharge,False,2,Unexpected transition: x-ray -> laboratory test | Unexpected transition: laboratory test -> triage
+P00157,8,registration,discharge,True,0,
+P00158,7,registration,discharge,True,0,
+P00159,6,registration,discharge,True,0,
+P00160,6,registration,discharge,True,0,
+P00161,6,registration,discharge,True,0,
+P00162,6,registration,discharge,True,0,
+P00163,7,registration,discharge,True,0,
+P00164,7,registration,discharge,True,0,
+P00165,7,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00166,7,registration,discharge,True,0,
+P00167,5,registration,discharge,True,0,
+P00168,6,registration,discharge,True,0,
+P00169,7,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00170,7,registration,discharge,True,0,
+P00171,8,registration,discharge,True,0,
+P00172,8,registration,discharge,False,2,Unexpected transition: laboratory test -> x-ray | Unexpected transition: x-ray -> triage
+P00173,4,registration,discharge,True,0,
+P00174,7,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00175,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00176,7,registration,discharge,True,0,
+P00177,7,registration,discharge,True,0,
+P00178,7,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00179,7,registration,discharge,True,0,
+P00180,5,registration,discharge,True,0,
+P00181,6,registration,discharge,True,0,
+P00182,4,registration,discharge,True,0,
+P00183,7,registration,discharge,True,0,
+P00184,7,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00185,9,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00186,7,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00187,6,registration,discharge,True,0,
+P00188,7,registration,discharge,True,0,
+P00189,5,registration,discharge,True,0,
+P00190,8,registration,discharge,True,0,
+P00191,8,registration,discharge,False,2,Unexpected transition: x-ray -> laboratory test | Unexpected transition: laboratory test -> triage
+P00192,6,registration,discharge,True,0,
+P00193,6,registration,discharge,True,0,
+P00194,6,registration,discharge,True,0,
+P00195,7,registration,discharge,True,0,
+P00196,8,registration,discharge,True,0,
+P00197,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00198,6,registration,discharge,True,0,
+P00199,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00200,5,registration,discharge,True,0,
+P00201,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00202,7,registration,discharge,True,0,
+P00203,5,registration,discharge,True,0,
+P00204,5,registration,discharge,True,0,
+P00205,6,registration,discharge,True,0,
+P00206,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00207,7,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00208,7,registration,discharge,True,0,
+P00209,5,registration,discharge,True,0,
+P00210,6,registration,discharge,True,0,
+P00211,7,registration,discharge,True,0,
+P00212,9,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00213,6,registration,discharge,True,0,
+P00214,5,registration,discharge,True,0,
+P00215,7,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00216,7,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00217,7,registration,discharge,True,0,
+P00218,4,registration,discharge,True,0,
+P00219,7,registration,discharge,True,0,
+P00220,8,registration,discharge,True,0,
+P00221,8,registration,discharge,True,0,
+P00222,5,registration,discharge,True,0,
+P00223,5,registration,discharge,True,0,
+P00224,7,registration,discharge,True,0,
+P00225,7,registration,discharge,True,0,
+P00226,5,registration,discharge,True,0,
+P00227,5,registration,discharge,True,0,
+P00228,8,registration,discharge,True,0,
+P00229,6,registration,discharge,True,0,
+P00230,6,registration,discharge,True,0,
+P00231,6,registration,discharge,True,0,
+P00232,6,registration,discharge,True,0,
+P00233,5,registration,discharge,True,0,
+P00234,5,registration,discharge,True,0,
+P00235,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00236,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00237,9,registration,discharge,False,2,Unexpected transition: x-ray -> laboratory test | Unexpected transition: laboratory test -> triage
+P00238,8,registration,discharge,True,0,
+P00239,7,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00240,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00241,7,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00242,7,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00243,6,registration,discharge,True,0,
+P00244,7,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00245,7,registration,discharge,True,0,
+P00246,6,registration,discharge,True,0,
+P00247,7,registration,discharge,True,0,
+P00248,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00249,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00250,7,registration,discharge,True,0,
+P00251,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00252,7,registration,discharge,True,0,
+P00253,9,registration,discharge,False,2,Unexpected transition: laboratory test -> x-ray | Unexpected transition: x-ray -> triage
+P00254,8,registration,discharge,False,2,Unexpected transition: laboratory test -> x-ray | Unexpected transition: x-ray -> triage
+P00255,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00256,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00257,6,registration,discharge,True,0,
+P00258,6,registration,discharge,True,0,
+P00259,8,registration,discharge,True,0,
+P00260,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00261,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00262,7,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00263,7,registration,discharge,True,0,
+P00264,6,registration,discharge,True,0,
+P00265,6,registration,discharge,True,0,
+P00266,6,registration,discharge,True,0,
+P00267,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00268,4,registration,discharge,True,0,
+P00269,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00270,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00271,7,registration,discharge,True,0,
+P00272,6,registration,discharge,True,0,
+P00273,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00274,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00275,9,registration,discharge,False,2,Unexpected transition: x-ray -> laboratory test | Unexpected transition: laboratory test -> triage
+P00276,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00277,7,registration,discharge,True,0,
+P00278,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00279,7,registration,discharge,True,0,
+P00280,6,registration,discharge,True,0,
+P00281,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00282,9,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00283,6,registration,discharge,True,0,
+P00284,6,registration,discharge,True,0,
+P00285,4,registration,discharge,True,0,
+P00286,9,registration,discharge,False,2,Unexpected transition: laboratory test -> x-ray | Unexpected transition: x-ray -> triage
+P00287,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00288,4,registration,discharge,True,0,
+P00289,7,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00290,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00291,7,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00292,9,registration,discharge,False,2,Unexpected transition: x-ray -> laboratory test | Unexpected transition: laboratory test -> triage
+P00293,9,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00294,7,registration,discharge,True,0,
+P00295,4,registration,discharge,True,0,
+P00296,7,registration,discharge,True,0,
+P00297,5,registration,discharge,True,0,
+P00298,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00299,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00300,8,registration,discharge,True,0,
+P00301,7,registration,discharge,True,0,
+P00302,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00303,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00304,7,registration,discharge,True,0,
+P00305,7,registration,discharge,True,0,
+P00306,9,registration,discharge,False,2,Unexpected transition: x-ray -> laboratory test | Unexpected transition: laboratory test -> triage
+P00307,4,registration,discharge,True,0,
+P00308,7,registration,discharge,True,0,
+P00309,9,registration,discharge,False,2,Unexpected transition: laboratory test -> x-ray | Unexpected transition: x-ray -> triage
+P00310,6,registration,discharge,True,0,
+P00311,9,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00312,9,registration,discharge,False,2,Unexpected transition: laboratory test -> x-ray | Unexpected transition: x-ray -> triage
+P00313,6,registration,discharge,True,0,
+P00314,7,registration,discharge,True,0,
+P00315,6,registration,discharge,True,0,
+P00316,6,registration,discharge,True,0,
+P00317,6,registration,discharge,True,0,
+P00318,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00319,8,registration,discharge,True,0,
+P00320,6,registration,discharge,True,0,
+P00321,6,registration,discharge,True,0,
+P00322,9,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00323,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00324,7,registration,discharge,True,0,
+P00325,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00326,7,registration,discharge,True,0,
+P00327,7,registration,discharge,True,0,
+P00328,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00329,6,registration,discharge,True,0,
+P00330,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00331,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00332,4,registration,discharge,True,0,
+P00333,8,registration,discharge,True,0,
+P00334,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00335,7,registration,discharge,True,0,
+P00336,7,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00337,7,registration,discharge,True,0,
+P00338,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00339,9,registration,discharge,False,2,Unexpected transition: laboratory test -> x-ray | Unexpected transition: x-ray -> triage
+P00340,7,registration,discharge,True,0,
+P00341,7,registration,discharge,True,0,
+P00342,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00343,7,registration,discharge,True,0,
+P00344,5,registration,discharge,True,0,
+P00345,7,registration,discharge,True,0,
+P00346,6,registration,discharge,True,0,
+P00347,9,registration,discharge,False,2,Unexpected transition: x-ray -> laboratory test | Unexpected transition: laboratory test -> triage
+P00348,8,registration,discharge,True,0,
+P00349,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00350,6,registration,discharge,True,0,
+P00351,7,registration,discharge,True,0,
+P00352,5,registration,discharge,True,0,
+P00353,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00354,5,registration,discharge,True,0,
+P00355,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00356,6,registration,discharge,True,0,
+P00357,7,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00358,7,registration,discharge,True,0,
+P00359,7,registration,discharge,True,0,
+P00360,7,registration,discharge,True,0,
+P00361,7,registration,discharge,True,0,
+P00362,7,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00363,7,registration,discharge,True,0,
+P00364,7,registration,discharge,True,0,
+P00365,7,registration,discharge,True,0,
+P00366,7,registration,discharge,True,0,
+P00367,5,registration,discharge,True,0,
+P00368,8,registration,discharge,True,0,
+P00369,7,registration,discharge,True,0,
+P00370,6,registration,discharge,True,0,
+P00371,5,registration,discharge,True,0,
+P00372,6,registration,discharge,True,0,
+P00373,7,registration,discharge,True,0,
+P00374,5,registration,discharge,True,0,
+P00375,9,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00376,7,registration,discharge,True,0,
+P00377,7,registration,discharge,True,0,
+P00378,8,registration,discharge,False,2,Unexpected transition: laboratory test -> x-ray | Unexpected transition: x-ray -> triage
+P00379,7,registration,discharge,True,0,
+P00380,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00381,5,registration,discharge,True,0,
+P00382,8,registration,discharge,True,0,
+P00383,6,registration,discharge,True,0,
+P00384,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00385,5,registration,discharge,True,0,
+P00386,6,registration,discharge,True,0,
+P00387,4,registration,discharge,True,0,
+P00388,7,registration,discharge,True,0,
+P00389,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00390,5,registration,discharge,True,0,
+P00391,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00392,9,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00393,7,registration,discharge,True,0,
+P00394,8,registration,discharge,True,0,
+P00395,9,registration,discharge,False,2,Unexpected transition: x-ray -> laboratory test | Unexpected transition: laboratory test -> triage
+P00396,7,registration,discharge,True,0,
+P00397,6,registration,discharge,True,0,
+P00398,5,registration,discharge,True,0,
+P00399,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00400,6,registration,discharge,True,0,
+P00401,7,registration,discharge,True,0,
+P00402,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00403,5,registration,discharge,True,0,
+P00404,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00405,5,registration,discharge,True,0,
+P00406,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00407,9,registration,discharge,False,2,Unexpected transition: laboratory test -> x-ray | Unexpected transition: x-ray -> triage
+P00408,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00409,7,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00410,4,registration,discharge,True,0,
+P00411,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00412,9,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00413,7,registration,discharge,True,0,
+P00414,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00415,7,registration,discharge,True,0,
+P00416,7,registration,discharge,True,0,
+P00417,7,registration,discharge,True,0,
+P00418,6,registration,discharge,True,0,
+P00419,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00420,8,registration,discharge,True,0,
+P00421,9,registration,discharge,False,2,Unexpected transition: x-ray -> laboratory test | Unexpected transition: laboratory test -> triage
+P00422,6,registration,discharge,True,0,
+P00423,6,registration,discharge,True,0,
+P00424,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00425,6,registration,discharge,True,0,
+P00426,6,registration,discharge,True,0,
+P00427,5,registration,discharge,True,0,
+P00428,7,registration,discharge,True,0,
+P00429,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00430,7,registration,discharge,True,0,
+P00431,5,registration,discharge,True,0,
+P00432,4,registration,discharge,True,0,
+P00433,7,registration,discharge,True,0,
+P00434,7,registration,discharge,True,0,
+P00435,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00436,5,registration,discharge,True,0,
+P00437,7,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00438,7,registration,discharge,True,0,
+P00439,8,registration,discharge,False,2,Unexpected transition: x-ray -> laboratory test | Unexpected transition: laboratory test -> triage
+P00440,6,registration,discharge,True,0,
+P00441,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00442,7,registration,discharge,True,0,
+P00443,5,registration,discharge,True,0,
+P00444,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00445,9,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00446,5,registration,discharge,True,0,
+P00447,7,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00448,6,registration,discharge,True,0,
+P00449,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00450,7,registration,discharge,True,0,
+P00451,8,registration,discharge,True,0,
+P00452,5,registration,discharge,True,0,
+P00453,8,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00454,7,registration,discharge,True,0,
+P00455,6,registration,discharge,True,0,
+P00456,8,registration,discharge,False,2,Unexpected transition: laboratory test -> x-ray | Unexpected transition: x-ray -> triage
+P00457,6,registration,discharge,True,0,
+P00458,5,registration,discharge,True,0,
+P00459,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00460,7,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00461,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00462,8,registration,discharge,True,0,
+P00463,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00464,6,registration,discharge,True,0,
+P00465,5,registration,discharge,True,0,
+P00466,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00467,5,registration,discharge,True,0,
+P00468,6,registration,discharge,True,0,
+P00469,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00470,7,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00471,7,registration,discharge,False,1,Unexpected transition: x-ray -> triage
+P00472,5,registration,discharge,True,0,
+P00473,8,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00474,8,registration,discharge,True,0,
+P00475,8,registration,discharge,True,0,
+P00476,7,registration,discharge,True,0,
+P00477,8,registration,discharge,True,0,
+P00478,7,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00479,8,registration,discharge,True,0,
+P00480,6,registration,discharge,True,0,
+P00481,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00482,6,registration,discharge,True,0,
+P00483,7,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test
+P00484,9,registration,discharge,False,2,Unexpected transition: laboratory test -> x-ray | Unexpected transition: x-ray -> triage
+P00485,6,registration,discharge,True,0,
+P00486,7,registration,discharge,True,0,
+P00487,8,registration,discharge,False,2,Unexpected transition: laboratory test -> x-ray | Unexpected transition: x-ray -> triage
+P00488,8,registration,discharge,True,0,
+P00489,7,registration,discharge,True,0,
+P00490,6,registration,discharge,True,0,
+P00491,7,registration,discharge,True,0,
+P00492,9,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00493,5,registration,discharge,True,0,
+P00494,8,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00495,6,registration,discharge,True,0,
+P00496,7,registration,discharge,False,1,Unexpected transition: laboratory test -> x-ray
+P00497,9,registration,discharge,False,2,Unexpected transition: x-ray -> laboratory test | Unexpected transition: laboratory test -> triage
+P00498,5,registration,discharge,True,0,
+P00499,8,registration,discharge,False,1,Unexpected transition: laboratory test -> triage
+P00500,7,registration,discharge,False,1,Unexpected transition: x-ray -> laboratory test

@@ -1,0 +1,2 @@
+total_cases,avg_duration_minutes,median_duration_minutes,p90_duration_minutes,min_duration_minutes,max_duration_minutes,avg_events_per_case
+500,261.68,253.0,424.0,21.0,833.0,6.94

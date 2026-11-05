@@ -1,0 +1,22 @@
+CAREFLOW – WEEK 4 ANALYSIS EXECUTION REPORT
+================================================
+Dataset: 500.0 cases; 3472 events; 7 activities
+Journey duration: mean 261.7 min; median 253.0 min; P90 424.0 min; min 21.0 min; max 833.0 min
+
+Repeated activities:
+- doctor consultation: 410 cases (82.0%), max 3 times in a case
+- triage: 126 cases (25.2%), max 2 times in a case
+
+Rule-based conformance results:
+- Cases checked: 500
+- Conforming cases: 312 (62.40%)
+- Non-conforming cases: 188
+- Transitions checked: 2972
+- Non-conforming transitions: 216
+- Unexpected transitions:
+  * x-ray -> laboratory test: 64
+  * laboratory test -> x-ray: 58
+  * laboratory test -> triage: 53
+  * x-ray -> triage: 41
+
+Execution boundary: KPI SQL was executed locally with SQLite against the supplied CSV. BigQuery SQL templates are included but were not run in the user BigQuery project. Conformance was executed using transparent rule-based checks, not PM4Py token replay. Reference pathway rules are project assumptions and should be reviewed before interpreting deviations.

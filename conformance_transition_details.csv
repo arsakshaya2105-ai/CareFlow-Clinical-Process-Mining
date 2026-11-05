@@ -1,0 +1,2973 @@
+case_id,from_activity,to_activity,conforms
+P00001,registration,triage,True
+P00001,triage,triage,True
+P00001,triage,doctor consultation,True
+P00001,doctor consultation,treatment,True
+P00001,treatment,discharge,True
+P00002,registration,triage,True
+P00002,triage,doctor consultation,True
+P00002,doctor consultation,laboratory test,True
+P00002,laboratory test,triage,False
+P00002,triage,doctor consultation,True
+P00002,doctor consultation,discharge,True
+P00003,registration,triage,True
+P00003,triage,doctor consultation,True
+P00003,doctor consultation,x-ray,True
+P00003,x-ray,triage,False
+P00003,triage,doctor consultation,True
+P00003,doctor consultation,discharge,True
+P00004,registration,triage,True
+P00004,triage,doctor consultation,True
+P00004,doctor consultation,laboratory test,True
+P00004,laboratory test,doctor consultation,True
+P00004,doctor consultation,treatment,True
+P00004,treatment,discharge,True
+P00005,registration,triage,True
+P00005,triage,doctor consultation,True
+P00005,doctor consultation,x-ray,True
+P00005,x-ray,triage,False
+P00005,triage,doctor consultation,True
+P00005,doctor consultation,treatment,True
+P00005,treatment,discharge,True
+P00006,registration,triage,True
+P00006,triage,doctor consultation,True
+P00006,doctor consultation,x-ray,True
+P00006,x-ray,laboratory test,False
+P00006,laboratory test,doctor consultation,True
+P00006,doctor consultation,treatment,True
+P00006,treatment,discharge,True
+P00007,registration,triage,True
+P00007,triage,doctor consultation,True
+P00007,doctor consultation,laboratory test,True
+P00007,laboratory test,triage,False
+P00007,triage,doctor consultation,True
+P00007,doctor consultation,treatment,True
+P00007,treatment,discharge,True
+P00008,registration,triage,True
+P00008,triage,doctor consultation,True
+P00008,doctor consultation,laboratory test,True
+P00008,laboratory test,triage,False
+P00008,triage,doctor consultation,True
+P00008,doctor consultation,discharge,True
+P00009,registration,triage,True
+P00009,triage,doctor consultation,True
+P00009,doctor consultation,laboratory test,True
+P00009,laboratory test,x-ray,False
+P00009,x-ray,triage,False
+P00009,triage,doctor consultation,True
+P00009,doctor consultation,treatment,True
+P00009,treatment,discharge,True
+P00010,registration,triage,True
+P00010,triage,doctor consultation,True
+P00010,doctor consultation,x-ray,True
+P00010,x-ray,laboratory test,False
+P00010,laboratory test,triage,False
+P00010,triage,doctor consultation,True
+P00010,doctor consultation,treatment,True
+P00010,treatment,discharge,True
+P00011,registration,triage,True
+P00011,triage,doctor consultation,True
+P00011,doctor consultation,laboratory test,True
+P00011,laboratory test,x-ray,False
+P00011,x-ray,doctor consultation,True
+P00011,doctor consultation,discharge,True
+P00012,registration,triage,True
+P00012,triage,triage,True
+P00012,triage,doctor consultation,True
+P00012,doctor consultation,treatment,True
+P00012,treatment,discharge,True
+P00013,registration,triage,True
+P00013,triage,doctor consultation,True
+P00013,doctor consultation,x-ray,True
+P00013,x-ray,doctor consultation,True
+P00013,doctor consultation,discharge,True
+P00014,registration,triage,True
+P00014,triage,doctor consultation,True
+P00014,doctor consultation,x-ray,True
+P00014,x-ray,doctor consultation,True
+P00014,doctor consultation,doctor consultation,True
+P00014,doctor consultation,discharge,True
+P00015,registration,triage,True
+P00015,triage,doctor consultation,True
+P00015,doctor consultation,x-ray,True
+P00015,x-ray,laboratory test,False
+P00015,laboratory test,doctor consultation,True
+P00015,doctor consultation,doctor consultation,True
+P00015,doctor consultation,discharge,True
+P00016,registration,triage,True
+P00016,triage,doctor consultation,True
+P00016,doctor consultation,x-ray,True
+P00016,x-ray,laboratory test,False
+P00016,laboratory test,doctor consultation,True
+P00016,doctor consultation,treatment,True
+P00016,treatment,discharge,True
+P00017,registration,triage,True
+P00017,triage,doctor consultation,True
+P00017,doctor consultation,discharge,True
+P00018,registration,triage,True
+P00018,triage,doctor consultation,True
+P00018,doctor consultation,laboratory test,True
+P00018,laboratory test,x-ray,False
+P00018,x-ray,doctor consultation,True
+P00018,doctor consultation,doctor consultation,True
+P00018,doctor consultation,treatment,True
+P00018,treatment,discharge,True
+P00019,registration,triage,True
+P00019,triage,doctor consultation,True
+P00019,doctor consultation,x-ray,True
+P00019,x-ray,doctor consultation,True
+P00019,doctor consultation,discharge,True
+P00020,registration,triage,True
+P00020,triage,doctor consultation,True
+P00020,doctor consultation,discharge,True
+P00021,registration,triage,True
+P00021,triage,doctor consultation,True
+P00021,doctor consultation,laboratory test,True
+P00021,laboratory test,doctor consultation,True
+P00021,doctor consultation,treatment,True
+P00021,treatment,discharge,True
+P00022,registration,triage,True
+P00022,triage,doctor consultation,True
+P00022,doctor consultation,x-ray,True
+P00022,x-ray,laboratory test,False
+P00022,laboratory test,doctor consultation,True
+P00022,doctor consultation,discharge,True
+P00023,registration,triage,True
+P00023,triage,doctor consultation,True
+P00023,doctor consultation,laboratory test,True
+P00023,laboratory test,doctor consultation,True
+P00023,doctor consultation,treatment,True
+P00023,treatment,discharge,True
+P00024,registration,triage,True
+P00024,triage,doctor consultation,True
+P00024,doctor consultation,laboratory test,True
+P00024,laboratory test,doctor consultation,True
+P00024,doctor consultation,treatment,True
+P00024,treatment,discharge,True
+P00025,registration,triage,True
+P00025,triage,doctor consultation,True
+P00025,doctor consultation,x-ray,True
+P00025,x-ray,laboratory test,False
+P00025,laboratory test,doctor consultation,True
+P00025,doctor consultation,discharge,True
+P00026,registration,triage,True
+P00026,triage,doctor consultation,True
+P00026,doctor consultation,x-ray,True
+P00026,x-ray,doctor consultation,True
+P00026,doctor consultation,discharge,True
+P00027,registration,triage,True
+P00027,triage,doctor consultation,True
+P00027,doctor consultation,laboratory test,True
+P00027,laboratory test,doctor consultation,True
+P00027,doctor consultation,treatment,True
+P00027,treatment,discharge,True
+P00028,registration,triage,True
+P00028,triage,doctor consultation,True
+P00028,doctor consultation,laboratory test,True
+P00028,laboratory test,doctor consultation,True
+P00028,doctor consultation,discharge,True
+P00029,registration,triage,True
+P00029,triage,doctor consultation,True
+P00029,doctor consultation,laboratory test,True
+P00029,laboratory test,doctor consultation,True
+P00029,doctor consultation,treatment,True
+P00029,treatment,discharge,True
+P00030,registration,triage,True
+P00030,triage,doctor consultation,True
+P00030,doctor consultation,x-ray,True
+P00030,x-ray,doctor consultation,True
+P00030,doctor consultation,treatment,True
+P00030,treatment,discharge,True
+P00031,registration,triage,True
+P00031,triage,doctor consultation,True
+P00031,doctor consultation,laboratory test,True
+P00031,laboratory test,doctor consultation,True
+P00031,doctor consultation,doctor consultation,True
+P00031,doctor consultation,treatment,True
+P00031,treatment,discharge,True
+P00032,registration,triage,True
+P00032,triage,doctor consultation,True
+P00032,doctor consultation,x-ray,True
+P00032,x-ray,doctor consultation,True
+P00032,doctor consultation,doctor consultation,True
+P00032,doctor consultation,treatment,True
+P00032,treatment,discharge,True
+P00033,registration,triage,True
+P00033,triage,doctor consultation,True
+P00033,doctor consultation,x-ray,True
+P00033,x-ray,laboratory test,False
+P00033,laboratory test,doctor consultation,True
+P00033,doctor consultation,doctor consultation,True
+P00033,doctor consultation,treatment,True
+P00033,treatment,discharge,True
+P00034,registration,triage,True
+P00034,triage,doctor consultation,True
+P00034,doctor consultation,laboratory test,True
+P00034,laboratory test,doctor consultation,True
+P00034,doctor consultation,treatment,True
+P00034,treatment,discharge,True
+P00035,registration,triage,True
+P00035,triage,doctor consultation,True
+P00035,doctor consultation,laboratory test,True
+P00035,laboratory test,doctor consultation,True
+P00035,doctor consultation,treatment,True
+P00035,treatment,discharge,True
+P00036,registration,triage,True
+P00036,triage,doctor consultation,True
+P00036,doctor consultation,laboratory test,True
+P00036,laboratory test,doctor consultation,True
+P00036,doctor consultation,treatment,True
+P00036,treatment,discharge,True
+P00037,registration,triage,True
+P00037,triage,doctor consultation,True
+P00037,doctor consultation,laboratory test,True
+P00037,laboratory test,doctor consultation,True
+P00037,doctor consultation,treatment,True
+P00037,treatment,discharge,True
+P00038,registration,triage,True
+P00038,triage,doctor consultation,True
+P00038,doctor consultation,treatment,True
+P00038,treatment,discharge,True
+P00039,registration,triage,True
+P00039,triage,doctor consultation,True
+P00039,doctor consultation,laboratory test,True
+P00039,laboratory test,doctor consultation,True
+P00039,doctor consultation,treatment,True
+P00039,treatment,discharge,True
+P00040,registration,triage,True
+P00040,triage,doctor consultation,True
+P00040,doctor consultation,x-ray,True
+P00040,x-ray,doctor consultation,True
+P00040,doctor consultation,treatment,True
+P00040,treatment,discharge,True
+P00041,registration,triage,True
+P00041,triage,doctor consultation,True
+P00041,doctor consultation,laboratory test,True
+P00041,laboratory test,x-ray,False
+P00041,x-ray,doctor consultation,True
+P00041,doctor consultation,treatment,True
+P00041,treatment,discharge,True
+P00042,registration,triage,True
+P00042,triage,doctor consultation,True
+P00042,doctor consultation,discharge,True
+P00043,registration,triage,True
+P00043,triage,doctor consultation,True
+P00043,doctor consultation,treatment,True
+P00043,treatment,discharge,True
+P00044,registration,triage,True
+P00044,triage,doctor consultation,True
+P00044,doctor consultation,x-ray,True
+P00044,x-ray,doctor consultation,True
+P00044,doctor consultation,discharge,True
+P00045,registration,triage,True
+P00045,triage,doctor consultation,True
+P00045,doctor consultation,laboratory test,True
+P00045,laboratory test,x-ray,False
+P00045,x-ray,doctor consultation,True
+P00045,doctor consultation,treatment,True
+P00045,treatment,discharge,True
+P00046,registration,triage,True
+P00046,triage,doctor consultation,True
+P00046,doctor consultation,laboratory test,True
+P00046,laboratory test,triage,False
+P00046,triage,doctor consultation,True
+P00046,doctor consultation,treatment,True
+P00046,treatment,discharge,True
+P00047,registration,triage,True
+P00047,triage,doctor consultation,True
+P00047,doctor consultation,discharge,True
+P00048,registration,triage,True
+P00048,triage,doctor consultation,True
+P00048,doctor consultation,laboratory test,True
+P00048,laboratory test,doctor consultation,True
+P00048,doctor consultation,doctor consultation,True
+P00048,doctor consultation,discharge,True
+P00049,registration,triage,True
+P00049,triage,doctor consultation,True
+P00049,doctor consultation,x-ray,True
+P00049,x-ray,doctor consultation,True
+P00049,doctor consultation,treatment,True
+P00049,treatment,discharge,True
+P00050,registration,triage,True
+P00050,triage,doctor consultation,True
+P00050,doctor consultation,laboratory test,True
+P00050,laboratory test,x-ray,False
+P00050,x-ray,doctor consultation,True
+P00050,doctor consultation,treatment,True
+P00050,treatment,discharge,True
+P00051,registration,triage,True
+P00051,triage,doctor consultation,True
+P00051,doctor consultation,laboratory test,True
+P00051,laboratory test,doctor consultation,True
+P00051,doctor consultation,treatment,True
+P00051,treatment,discharge,True
+P00052,registration,triage,True
+P00052,triage,doctor consultation,True
+P00052,doctor consultation,doctor consultation,True
+P00052,doctor consultation,treatment,True
+P00052,treatment,discharge,True
+P00053,registration,triage,True
+P00053,triage,doctor consultation,True
+P00053,doctor consultation,doctor consultation,True
+P00053,doctor consultation,treatment,True
+P00053,treatment,discharge,True
+P00054,registration,triage,True
+P00054,triage,doctor consultation,True
+P00054,doctor consultation,x-ray,True
+P00054,x-ray,doctor consultation,True
+P00054,doctor consultation,treatment,True
+P00054,treatment,discharge,True
+P00055,registration,triage,True
+P00055,triage,doctor consultation,True
+P00055,doctor consultation,x-ray,True
+P00055,x-ray,doctor consultation,True
+P00055,doctor consultation,treatment,True
+P00055,treatment,discharge,True
+P00056,registration,triage,True
+P00056,triage,doctor consultation,True
+P00056,doctor consultation,x-ray,True
+P00056,x-ray,laboratory test,False
+P00056,laboratory test,doctor consultation,True
+P00056,doctor consultation,discharge,True
+P00057,registration,triage,True
+P00057,triage,doctor consultation,True
+P00057,doctor consultation,x-ray,True
+P00057,x-ray,doctor consultation,True
+P00057,doctor consultation,doctor consultation,True
+P00057,doctor consultation,treatment,True
+P00057,treatment,discharge,True
+P00058,registration,triage,True
+P00058,triage,doctor consultation,True
+P00058,doctor consultation,doctor consultation,True
+P00058,doctor consultation,treatment,True
+P00058,treatment,discharge,True
+P00059,registration,triage,True
+P00059,triage,doctor consultation,True
+P00059,doctor consultation,laboratory test,True
+P00059,laboratory test,triage,False
+P00059,triage,doctor consultation,True
+P00059,doctor consultation,treatment,True
+P00059,treatment,discharge,True
+P00060,registration,triage,True
+P00060,triage,doctor consultation,True
+P00060,doctor consultation,treatment,True
+P00060,treatment,discharge,True
+P00061,registration,triage,True
+P00061,triage,doctor consultation,True
+P00061,doctor consultation,laboratory test,True
+P00061,laboratory test,doctor consultation,True
+P00061,doctor consultation,doctor consultation,True
+P00061,doctor consultation,discharge,True
+P00062,registration,triage,True
+P00062,triage,doctor consultation,True
+P00062,doctor consultation,x-ray,True
+P00062,x-ray,doctor consultation,True
+P00062,doctor consultation,treatment,True
+P00062,treatment,discharge,True
+P00063,registration,triage,True
+P00063,triage,doctor consultation,True
+P00063,doctor consultation,x-ray,True
+P00063,x-ray,laboratory test,False
+P00063,laboratory test,triage,False
+P00063,triage,doctor consultation,True
+P00063,doctor consultation,treatment,True
+P00063,treatment,discharge,True
+P00064,registration,triage,True
+P00064,triage,doctor consultation,True
+P00064,doctor consultation,laboratory test,True
+P00064,laboratory test,triage,False
+P00064,triage,doctor consultation,True
+P00064,doctor consultation,treatment,True
+P00064,treatment,discharge,True
+P00065,registration,triage,True
+P00065,triage,doctor consultation,True
+P00065,doctor consultation,laboratory test,True
+P00065,laboratory test,x-ray,False
+P00065,x-ray,doctor consultation,True
+P00065,doctor consultation,treatment,True
+P00065,treatment,discharge,True
+P00066,registration,triage,True
+P00066,triage,doctor consultation,True
+P00066,doctor consultation,x-ray,True
+P00066,x-ray,laboratory test,False
+P00066,laboratory test,doctor consultation,True
+P00066,doctor consultation,discharge,True
+P00067,registration,triage,True
+P00067,triage,doctor consultation,True
+P00067,doctor consultation,laboratory test,True
+P00067,laboratory test,doctor consultation,True
+P00067,doctor consultation,doctor consultation,True
+P00067,doctor consultation,discharge,True
+P00068,registration,triage,True
+P00068,triage,doctor consultation,True
+P00068,doctor consultation,treatment,True
+P00068,treatment,discharge,True
+P00069,registration,triage,True
+P00069,triage,doctor consultation,True
+P00069,doctor consultation,laboratory test,True
+P00069,laboratory test,triage,False
+P00069,triage,doctor consultation,True
+P00069,doctor consultation,treatment,True
+P00069,treatment,discharge,True
+P00070,registration,triage,True
+P00070,triage,doctor consultation,True
+P00070,doctor consultation,x-ray,True
+P00070,x-ray,doctor consultation,True
+P00070,doctor consultation,treatment,True
+P00070,treatment,discharge,True
+P00071,registration,triage,True
+P00071,triage,doctor consultation,True
+P00071,doctor consultation,doctor consultation,True
+P00071,doctor consultation,discharge,True
+P00072,registration,triage,True
+P00072,triage,doctor consultation,True
+P00072,doctor consultation,laboratory test,True
+P00072,laboratory test,x-ray,False
+P00072,x-ray,doctor consultation,True
+P00072,doctor consultation,treatment,True
+P00072,treatment,discharge,True
+P00073,registration,triage,True
+P00073,triage,doctor consultation,True
+P00073,doctor consultation,x-ray,True
+P00073,x-ray,doctor consultation,True
+P00073,doctor consultation,treatment,True
+P00073,treatment,discharge,True
+P00074,registration,triage,True
+P00074,triage,doctor consultation,True
+P00074,doctor consultation,x-ray,True
+P00074,x-ray,laboratory test,False
+P00074,laboratory test,doctor consultation,True
+P00074,doctor consultation,treatment,True
+P00074,treatment,discharge,True
+P00075,registration,triage,True
+P00075,triage,doctor consultation,True
+P00075,doctor consultation,doctor consultation,True
+P00075,doctor consultation,treatment,True
+P00075,treatment,discharge,True
+P00076,registration,triage,True
+P00076,triage,doctor consultation,True
+P00076,doctor consultation,x-ray,True
+P00076,x-ray,doctor consultation,True
+P00076,doctor consultation,treatment,True
+P00076,treatment,discharge,True
+P00077,registration,triage,True
+P00077,triage,doctor consultation,True
+P00077,doctor consultation,x-ray,True
+P00077,x-ray,doctor consultation,True
+P00077,doctor consultation,doctor consultation,True
+P00077,doctor consultation,treatment,True
+P00077,treatment,discharge,True
+P00078,registration,triage,True
+P00078,triage,doctor consultation,True
+P00078,doctor consultation,treatment,True
+P00078,treatment,discharge,True
+P00079,registration,triage,True
+P00079,triage,doctor consultation,True
+P00079,doctor consultation,laboratory test,True
+P00079,laboratory test,doctor consultation,True
+P00079,doctor consultation,treatment,True
+P00079,treatment,discharge,True
+P00080,registration,triage,True
+P00080,triage,doctor consultation,True
+P00080,doctor consultation,x-ray,True
+P00080,x-ray,triage,False
+P00080,triage,doctor consultation,True
+P00080,doctor consultation,treatment,True
+P00080,treatment,discharge,True
+P00081,registration,triage,True
+P00081,triage,doctor consultation,True
+P00081,doctor consultation,laboratory test,True
+P00081,laboratory test,doctor consultation,True
+P00081,doctor consultation,doctor consultation,True
+P00081,doctor consultation,treatment,True
+P00081,treatment,discharge,True
+P00082,registration,triage,True
+P00082,triage,doctor consultation,True
+P00082,doctor consultation,x-ray,True
+P00082,x-ray,laboratory test,False
+P00082,laboratory test,doctor consultation,True
+P00082,doctor consultation,treatment,True
+P00082,treatment,discharge,True
+P00083,registration,triage,True
+P00083,triage,triage,True
+P00083,triage,doctor consultation,True
+P00083,doctor consultation,treatment,True
+P00083,treatment,discharge,True
+P00084,registration,triage,True
+P00084,triage,doctor consultation,True
+P00084,doctor consultation,x-ray,True
+P00084,x-ray,triage,False
+P00084,triage,doctor consultation,True
+P00084,doctor consultation,treatment,True
+P00084,treatment,discharge,True
+P00085,registration,triage,True
+P00085,triage,doctor consultation,True
+P00085,doctor consultation,x-ray,True
+P00085,x-ray,triage,False
+P00085,triage,doctor consultation,True
+P00085,doctor consultation,treatment,True
+P00085,treatment,discharge,True
+P00086,registration,triage,True
+P00086,triage,doctor consultation,True
+P00086,doctor consultation,laboratory test,True
+P00086,laboratory test,triage,False
+P00086,triage,doctor consultation,True
+P00086,doctor consultation,treatment,True
+P00086,treatment,discharge,True
+P00087,registration,triage,True
+P00087,triage,doctor consultation,True
+P00087,doctor consultation,laboratory test,True
+P00087,laboratory test,triage,False
+P00087,triage,doctor consultation,True
+P00087,doctor consultation,treatment,True
+P00087,treatment,discharge,True
+P00088,registration,triage,True
+P00088,triage,doctor consultation,True
+P00088,doctor consultation,x-ray,True
+P00088,x-ray,laboratory test,False
+P00088,laboratory test,triage,False
+P00088,triage,doctor consultation,True
+P00088,doctor consultation,treatment,True
+P00088,treatment,discharge,True
+P00089,registration,triage,True
+P00089,triage,doctor consultation,True
+P00089,doctor consultation,laboratory test,True
+P00089,laboratory test,doctor consultation,True
+P00089,doctor consultation,treatment,True
+P00089,treatment,discharge,True
+P00090,registration,triage,True
+P00090,triage,doctor consultation,True
+P00090,doctor consultation,x-ray,True
+P00090,x-ray,doctor consultation,True
+P00090,doctor consultation,doctor consultation,True
+P00090,doctor consultation,treatment,True
+P00090,treatment,discharge,True
+P00091,registration,triage,True
+P00091,triage,doctor consultation,True
+P00091,doctor consultation,laboratory test,True
+P00091,laboratory test,x-ray,False
+P00091,x-ray,doctor consultation,True
+P00091,doctor consultation,treatment,True
+P00091,treatment,discharge,True
+P00092,registration,triage,True
+P00092,triage,doctor consultation,True
+P00092,doctor consultation,laboratory test,True
+P00092,laboratory test,x-ray,False
+P00092,x-ray,doctor consultation,True
+P00092,doctor consultation,doctor consultation,True
+P00092,doctor consultation,discharge,True
+P00093,registration,triage,True
+P00093,triage,doctor consultation,True
+P00093,doctor consultation,x-ray,True
+P00093,x-ray,triage,False
+P00093,triage,doctor consultation,True
+P00093,doctor consultation,treatment,True
+P00093,treatment,discharge,True
+P00094,registration,triage,True
+P00094,triage,doctor consultation,True
+P00094,doctor consultation,x-ray,True
+P00094,x-ray,doctor consultation,True
+P00094,doctor consultation,treatment,True
+P00094,treatment,discharge,True
+P00095,registration,triage,True
+P00095,triage,doctor consultation,True
+P00095,doctor consultation,laboratory test,True
+P00095,laboratory test,doctor consultation,True
+P00095,doctor consultation,treatment,True
+P00095,treatment,discharge,True
+P00096,registration,triage,True
+P00096,triage,doctor consultation,True
+P00096,doctor consultation,x-ray,True
+P00096,x-ray,doctor consultation,True
+P00096,doctor consultation,treatment,True
+P00096,treatment,discharge,True
+P00097,registration,triage,True
+P00097,triage,doctor consultation,True
+P00097,doctor consultation,treatment,True
+P00097,treatment,discharge,True
+P00098,registration,triage,True
+P00098,triage,doctor consultation,True
+P00098,doctor consultation,laboratory test,True
+P00098,laboratory test,x-ray,False
+P00098,x-ray,doctor consultation,True
+P00098,doctor consultation,doctor consultation,True
+P00098,doctor consultation,treatment,True
+P00098,treatment,discharge,True
+P00099,registration,triage,True
+P00099,triage,doctor consultation,True
+P00099,doctor consultation,doctor consultation,True
+P00099,doctor consultation,treatment,True
+P00099,treatment,discharge,True
+P00100,registration,triage,True
+P00100,triage,triage,True
+P00100,triage,doctor consultation,True
+P00100,doctor consultation,treatment,True
+P00100,treatment,discharge,True
+P00101,registration,triage,True
+P00101,triage,doctor consultation,True
+P00101,doctor consultation,laboratory test,True
+P00101,laboratory test,doctor consultation,True
+P00101,doctor consultation,treatment,True
+P00101,treatment,discharge,True
+P00102,registration,triage,True
+P00102,triage,doctor consultation,True
+P00102,doctor consultation,x-ray,True
+P00102,x-ray,laboratory test,False
+P00102,laboratory test,doctor consultation,True
+P00102,doctor consultation,treatment,True
+P00102,treatment,discharge,True
+P00103,registration,triage,True
+P00103,triage,doctor consultation,True
+P00103,doctor consultation,x-ray,True
+P00103,x-ray,laboratory test,False
+P00103,laboratory test,doctor consultation,True
+P00103,doctor consultation,doctor consultation,True
+P00103,doctor consultation,treatment,True
+P00103,treatment,discharge,True
+P00104,registration,triage,True
+P00104,triage,doctor consultation,True
+P00104,doctor consultation,x-ray,True
+P00104,x-ray,doctor consultation,True
+P00104,doctor consultation,treatment,True
+P00104,treatment,discharge,True
+P00105,registration,triage,True
+P00105,triage,doctor consultation,True
+P00105,doctor consultation,treatment,True
+P00105,treatment,discharge,True
+P00106,registration,triage,True
+P00106,triage,doctor consultation,True
+P00106,doctor consultation,laboratory test,True
+P00106,laboratory test,x-ray,False
+P00106,x-ray,doctor consultation,True
+P00106,doctor consultation,treatment,True
+P00106,treatment,discharge,True
+P00107,registration,triage,True
+P00107,triage,doctor consultation,True
+P00107,doctor consultation,treatment,True
+P00107,treatment,discharge,True
+P00108,registration,triage,True
+P00108,triage,doctor consultation,True
+P00108,doctor consultation,laboratory test,True
+P00108,laboratory test,triage,False
+P00108,triage,doctor consultation,True
+P00108,doctor consultation,treatment,True
+P00108,treatment,discharge,True
+P00109,registration,triage,True
+P00109,triage,triage,True
+P00109,triage,doctor consultation,True
+P00109,doctor consultation,treatment,True
+P00109,treatment,discharge,True
+P00110,registration,triage,True
+P00110,triage,doctor consultation,True
+P00110,doctor consultation,x-ray,True
+P00110,x-ray,doctor consultation,True
+P00110,doctor consultation,discharge,True
+P00111,registration,triage,True
+P00111,triage,doctor consultation,True
+P00111,doctor consultation,x-ray,True
+P00111,x-ray,laboratory test,False
+P00111,laboratory test,doctor consultation,True
+P00111,doctor consultation,discharge,True
+P00112,registration,triage,True
+P00112,triage,doctor consultation,True
+P00112,doctor consultation,laboratory test,True
+P00112,laboratory test,doctor consultation,True
+P00112,doctor consultation,discharge,True
+P00113,registration,triage,True
+P00113,triage,doctor consultation,True
+P00113,doctor consultation,laboratory test,True
+P00113,laboratory test,doctor consultation,True
+P00113,doctor consultation,treatment,True
+P00113,treatment,discharge,True
+P00114,registration,triage,True
+P00114,triage,doctor consultation,True
+P00114,doctor consultation,laboratory test,True
+P00114,laboratory test,doctor consultation,True
+P00114,doctor consultation,discharge,True
+P00115,registration,triage,True
+P00115,triage,doctor consultation,True
+P00115,doctor consultation,doctor consultation,True
+P00115,doctor consultation,treatment,True
+P00115,treatment,discharge,True
+P00116,registration,triage,True
+P00116,triage,doctor consultation,True
+P00116,doctor consultation,x-ray,True
+P00116,x-ray,doctor consultation,True
+P00116,doctor consultation,discharge,True
+P00117,registration,triage,True
+P00117,triage,doctor consultation,True
+P00117,doctor consultation,treatment,True
+P00117,treatment,discharge,True
+P00118,registration,triage,True
+P00118,triage,doctor consultation,True
+P00118,doctor consultation,laboratory test,True
+P00118,laboratory test,doctor consultation,True
+P00118,doctor consultation,discharge,True
+P00119,registration,triage,True
+P00119,triage,doctor consultation,True
+P00119,doctor consultation,x-ray,True
+P00119,x-ray,laboratory test,False
+P00119,laboratory test,doctor consultation,True
+P00119,doctor consultation,doctor consultation,True
+P00119,doctor consultation,discharge,True
+P00120,registration,triage,True
+P00120,triage,doctor consultation,True
+P00120,doctor consultation,laboratory test,True
+P00120,laboratory test,triage,False
+P00120,triage,doctor consultation,True
+P00120,doctor consultation,discharge,True
+P00121,registration,triage,True
+P00121,triage,doctor consultation,True
+P00121,doctor consultation,x-ray,True
+P00121,x-ray,doctor consultation,True
+P00121,doctor consultation,treatment,True
+P00121,treatment,discharge,True
+P00122,registration,triage,True
+P00122,triage,doctor consultation,True
+P00122,doctor consultation,laboratory test,True
+P00122,laboratory test,triage,False
+P00122,triage,doctor consultation,True
+P00122,doctor consultation,treatment,True
+P00122,treatment,discharge,True
+P00123,registration,triage,True
+P00123,triage,doctor consultation,True
+P00123,doctor consultation,treatment,True
+P00123,treatment,discharge,True
+P00124,registration,triage,True
+P00124,triage,doctor consultation,True
+P00124,doctor consultation,x-ray,True
+P00124,x-ray,doctor consultation,True
+P00124,doctor consultation,doctor consultation,True
+P00124,doctor consultation,treatment,True
+P00124,treatment,discharge,True
+P00125,registration,triage,True
+P00125,triage,doctor consultation,True
+P00125,doctor consultation,x-ray,True
+P00125,x-ray,laboratory test,False
+P00125,laboratory test,doctor consultation,True
+P00125,doctor consultation,discharge,True
+P00126,registration,triage,True
+P00126,triage,doctor consultation,True
+P00126,doctor consultation,x-ray,True
+P00126,x-ray,doctor consultation,True
+P00126,doctor consultation,treatment,True
+P00126,treatment,discharge,True
+P00127,registration,triage,True
+P00127,triage,doctor consultation,True
+P00127,doctor consultation,laboratory test,True
+P00127,laboratory test,triage,False
+P00127,triage,doctor consultation,True
+P00127,doctor consultation,discharge,True
+P00128,registration,triage,True
+P00128,triage,doctor consultation,True
+P00128,doctor consultation,laboratory test,True
+P00128,laboratory test,x-ray,False
+P00128,x-ray,doctor consultation,True
+P00128,doctor consultation,discharge,True
+P00129,registration,triage,True
+P00129,triage,doctor consultation,True
+P00129,doctor consultation,x-ray,True
+P00129,x-ray,doctor consultation,True
+P00129,doctor consultation,treatment,True
+P00129,treatment,discharge,True
+P00130,registration,triage,True
+P00130,triage,doctor consultation,True
+P00130,doctor consultation,laboratory test,True
+P00130,laboratory test,x-ray,False
+P00130,x-ray,doctor consultation,True
+P00130,doctor consultation,discharge,True
+P00131,registration,triage,True
+P00131,triage,doctor consultation,True
+P00131,doctor consultation,laboratory test,True
+P00131,laboratory test,doctor consultation,True
+P00131,doctor consultation,treatment,True
+P00131,treatment,discharge,True
+P00132,registration,triage,True
+P00132,triage,doctor consultation,True
+P00132,doctor consultation,laboratory test,True
+P00132,laboratory test,doctor consultation,True
+P00132,doctor consultation,doctor consultation,True
+P00132,doctor consultation,treatment,True
+P00132,treatment,discharge,True
+P00133,registration,triage,True
+P00133,triage,doctor consultation,True
+P00133,doctor consultation,treatment,True
+P00133,treatment,discharge,True
+P00134,registration,triage,True
+P00134,triage,doctor consultation,True
+P00134,doctor consultation,x-ray,True
+P00134,x-ray,doctor consultation,True
+P00134,doctor consultation,treatment,True
+P00134,treatment,discharge,True
+P00135,registration,triage,True
+P00135,triage,doctor consultation,True
+P00135,doctor consultation,treatment,True
+P00135,treatment,discharge,True
+P00136,registration,triage,True
+P00136,triage,doctor consultation,True
+P00136,doctor consultation,laboratory test,True
+P00136,laboratory test,x-ray,False
+P00136,x-ray,doctor consultation,True
+P00136,doctor consultation,treatment,True
+P00136,treatment,discharge,True
+P00137,registration,triage,True
+P00137,triage,doctor consultation,True
+P00137,doctor consultation,laboratory test,True
+P00137,laboratory test,doctor consultation,True
+P00137,doctor consultation,treatment,True
+P00137,treatment,discharge,True
+P00138,registration,triage,True
+P00138,triage,doctor consultation,True
+P00138,doctor consultation,x-ray,True
+P00138,x-ray,doctor consultation,True
+P00138,doctor consultation,treatment,True
+P00138,treatment,discharge,True
+P00139,registration,triage,True
+P00139,triage,doctor consultation,True
+P00139,doctor consultation,x-ray,True
+P00139,x-ray,doctor consultation,True
+P00139,doctor consultation,discharge,True
+P00140,registration,triage,True
+P00140,triage,doctor consultation,True
+P00140,doctor consultation,x-ray,True
+P00140,x-ray,doctor consultation,True
+P00140,doctor consultation,treatment,True
+P00140,treatment,discharge,True
+P00141,registration,triage,True
+P00141,triage,doctor consultation,True
+P00141,doctor consultation,x-ray,True
+P00141,x-ray,doctor consultation,True
+P00141,doctor consultation,doctor consultation,True
+P00141,doctor consultation,discharge,True
+P00142,registration,triage,True
+P00142,triage,doctor consultation,True
+P00142,doctor consultation,laboratory test,True
+P00142,laboratory test,doctor consultation,True
+P00142,doctor consultation,treatment,True
+P00142,treatment,discharge,True
+P00143,registration,triage,True
+P00143,triage,doctor consultation,True
+P00143,doctor consultation,laboratory test,True
+P00143,laboratory test,doctor consultation,True
+P00143,doctor consultation,treatment,True
+P00143,treatment,discharge,True
+P00144,registration,triage,True
+P00144,triage,doctor consultation,True
+P00144,doctor consultation,laboratory test,True
+P00144,laboratory test,doctor consultation,True
+P00144,doctor consultation,treatment,True
+P00144,treatment,discharge,True
+P00145,registration,triage,True
+P00145,triage,doctor consultation,True
+P00145,doctor consultation,x-ray,True
+P00145,x-ray,doctor consultation,True
+P00145,doctor consultation,treatment,True
+P00145,treatment,discharge,True
+P00146,registration,triage,True
+P00146,triage,doctor consultation,True
+P00146,doctor consultation,doctor consultation,True
+P00146,doctor consultation,treatment,True
+P00146,treatment,discharge,True
+P00147,registration,triage,True
+P00147,triage,doctor consultation,True
+P00147,doctor consultation,x-ray,True
+P00147,x-ray,doctor consultation,True
+P00147,doctor consultation,treatment,True
+P00147,treatment,discharge,True
+P00148,registration,triage,True
+P00148,triage,doctor consultation,True
+P00148,doctor consultation,laboratory test,True
+P00148,laboratory test,doctor consultation,True
+P00148,doctor consultation,treatment,True
+P00148,treatment,discharge,True
+P00149,registration,triage,True
+P00149,triage,triage,True
+P00149,triage,doctor consultation,True
+P00149,doctor consultation,treatment,True
+P00149,treatment,discharge,True
+P00150,registration,triage,True
+P00150,triage,doctor consultation,True
+P00150,doctor consultation,x-ray,True
+P00150,x-ray,doctor consultation,True
+P00150,doctor consultation,doctor consultation,True
+P00150,doctor consultation,discharge,True
+P00151,registration,triage,True
+P00151,triage,doctor consultation,True
+P00151,doctor consultation,x-ray,True
+P00151,x-ray,laboratory test,False
+P00151,laboratory test,triage,False
+P00151,triage,doctor consultation,True
+P00151,doctor consultation,treatment,True
+P00151,treatment,discharge,True
+P00152,registration,triage,True
+P00152,triage,triage,True
+P00152,triage,doctor consultation,True
+P00152,doctor consultation,treatment,True
+P00152,treatment,discharge,True
+P00153,registration,triage,True
+P00153,triage,doctor consultation,True
+P00153,doctor consultation,laboratory test,True
+P00153,laboratory test,x-ray,False
+P00153,x-ray,doctor consultation,True
+P00153,doctor consultation,treatment,True
+P00153,treatment,discharge,True
+P00154,registration,triage,True
+P00154,triage,doctor consultation,True
+P00154,doctor consultation,x-ray,True
+P00154,x-ray,triage,False
+P00154,triage,doctor consultation,True
+P00154,doctor consultation,discharge,True
+P00155,registration,triage,True
+P00155,triage,doctor consultation,True
+P00155,doctor consultation,laboratory test,True
+P00155,laboratory test,x-ray,False
+P00155,x-ray,doctor consultation,True
+P00155,doctor consultation,treatment,True
+P00155,treatment,discharge,True
+P00156,registration,triage,True
+P00156,triage,doctor consultation,True
+P00156,doctor consultation,x-ray,True
+P00156,x-ray,laboratory test,False
+P00156,laboratory test,triage,False
+P00156,triage,doctor consultation,True
+P00156,doctor consultation,discharge,True
+P00157,registration,triage,True
+P00157,triage,doctor consultation,True
+P00157,doctor consultation,laboratory test,True
+P00157,laboratory test,doctor consultation,True
+P00157,doctor consultation,doctor consultation,True
+P00157,doctor consultation,treatment,True
+P00157,treatment,discharge,True
+P00158,registration,triage,True
+P00158,triage,doctor consultation,True
+P00158,doctor consultation,laboratory test,True
+P00158,laboratory test,doctor consultation,True
+P00158,doctor consultation,treatment,True
+P00158,treatment,discharge,True
+P00159,registration,triage,True
+P00159,triage,doctor consultation,True
+P00159,doctor consultation,laboratory test,True
+P00159,laboratory test,doctor consultation,True
+P00159,doctor consultation,discharge,True
+P00160,registration,triage,True
+P00160,triage,doctor consultation,True
+P00160,doctor consultation,x-ray,True
+P00160,x-ray,doctor consultation,True
+P00160,doctor consultation,discharge,True
+P00161,registration,triage,True
+P00161,triage,doctor consultation,True
+P00161,doctor consultation,laboratory test,True
+P00161,laboratory test,doctor consultation,True
+P00161,doctor consultation,discharge,True
+P00162,registration,triage,True
+P00162,triage,doctor consultation,True
+P00162,doctor consultation,x-ray,True
+P00162,x-ray,doctor consultation,True
+P00162,doctor consultation,discharge,True
+P00163,registration,triage,True
+P00163,triage,doctor consultation,True
+P00163,doctor consultation,x-ray,True
+P00163,x-ray,doctor consultation,True
+P00163,doctor consultation,treatment,True
+P00163,treatment,discharge,True
+P00164,registration,triage,True
+P00164,triage,doctor consultation,True
+P00164,doctor consultation,laboratory test,True
+P00164,laboratory test,doctor consultation,True
+P00164,doctor consultation,treatment,True
+P00164,treatment,discharge,True
+P00165,registration,triage,True
+P00165,triage,doctor consultation,True
+P00165,doctor consultation,x-ray,True
+P00165,x-ray,triage,False
+P00165,triage,doctor consultation,True
+P00165,doctor consultation,discharge,True
+P00166,registration,triage,True
+P00166,triage,doctor consultation,True
+P00166,doctor consultation,laboratory test,True
+P00166,laboratory test,doctor consultation,True
+P00166,doctor consultation,doctor consultation,True
+P00166,doctor consultation,discharge,True
+P00167,registration,triage,True
+P00167,triage,doctor consultation,True
+P00167,doctor consultation,doctor consultation,True
+P00167,doctor consultation,discharge,True
+P00168,registration,triage,True
+P00168,triage,doctor consultation,True
+P00168,doctor consultation,x-ray,True
+P00168,x-ray,doctor consultation,True
+P00168,doctor consultation,discharge,True
+P00169,registration,triage,True
+P00169,triage,doctor consultation,True
+P00169,doctor consultation,laboratory test,True
+P00169,laboratory test,triage,False
+P00169,triage,doctor consultation,True
+P00169,doctor consultation,discharge,True
+P00170,registration,triage,True
+P00170,triage,doctor consultation,True
+P00170,doctor consultation,x-ray,True
+P00170,x-ray,doctor consultation,True
+P00170,doctor consultation,treatment,True
+P00170,treatment,discharge,True
+P00171,registration,triage,True
+P00171,triage,doctor consultation,True
+P00171,doctor consultation,x-ray,True
+P00171,x-ray,doctor consultation,True
+P00171,doctor consultation,doctor consultation,True
+P00171,doctor consultation,treatment,True
+P00171,treatment,discharge,True
+P00172,registration,triage,True
+P00172,triage,doctor consultation,True
+P00172,doctor consultation,laboratory test,True
+P00172,laboratory test,x-ray,False
+P00172,x-ray,triage,False
+P00172,triage,doctor consultation,True
+P00172,doctor consultation,discharge,True
+P00173,registration,triage,True
+P00173,triage,doctor consultation,True
+P00173,doctor consultation,discharge,True
+P00174,registration,triage,True
+P00174,triage,doctor consultation,True
+P00174,doctor consultation,x-ray,True
+P00174,x-ray,triage,False
+P00174,triage,doctor consultation,True
+P00174,doctor consultation,discharge,True
+P00175,registration,triage,True
+P00175,triage,doctor consultation,True
+P00175,doctor consultation,x-ray,True
+P00175,x-ray,laboratory test,False
+P00175,laboratory test,doctor consultation,True
+P00175,doctor consultation,treatment,True
+P00175,treatment,discharge,True
+P00176,registration,triage,True
+P00176,triage,doctor consultation,True
+P00176,doctor consultation,x-ray,True
+P00176,x-ray,doctor consultation,True
+P00176,doctor consultation,treatment,True
+P00176,treatment,discharge,True
+P00177,registration,triage,True
+P00177,triage,doctor consultation,True
+P00177,doctor consultation,laboratory test,True
+P00177,laboratory test,doctor consultation,True
+P00177,doctor consultation,treatment,True
+P00177,treatment,discharge,True
+P00178,registration,triage,True
+P00178,triage,doctor consultation,True
+P00178,doctor consultation,x-ray,True
+P00178,x-ray,laboratory test,False
+P00178,laboratory test,doctor consultation,True
+P00178,doctor consultation,discharge,True
+P00179,registration,triage,True
+P00179,triage,doctor consultation,True
+P00179,doctor consultation,laboratory test,True
+P00179,laboratory test,doctor consultation,True
+P00179,doctor consultation,treatment,True
+P00179,treatment,discharge,True
+P00180,registration,triage,True
+P00180,triage,doctor consultation,True
+P00180,doctor consultation,treatment,True
+P00180,treatment,discharge,True
+P00181,registration,triage,True
+P00181,triage,doctor consultation,True
+P00181,doctor consultation,x-ray,True
+P00181,x-ray,doctor consultation,True
+P00181,doctor consultation,discharge,True
+P00182,registration,triage,True
+P00182,triage,doctor consultation,True
+P00182,doctor consultation,discharge,True
+P00183,registration,triage,True
+P00183,triage,doctor consultation,True
+P00183,doctor consultation,laboratory test,True
+P00183,laboratory test,doctor consultation,True
+P00183,doctor consultation,treatment,True
+P00183,treatment,discharge,True
+P00184,registration,triage,True
+P00184,triage,doctor consultation,True
+P00184,doctor consultation,laboratory test,True
+P00184,laboratory test,triage,False
+P00184,triage,doctor consultation,True
+P00184,doctor consultation,discharge,True
+P00185,registration,triage,True
+P00185,triage,doctor consultation,True
+P00185,doctor consultation,laboratory test,True
+P00185,laboratory test,x-ray,False
+P00185,x-ray,doctor consultation,True
+P00185,doctor consultation,doctor consultation,True
+P00185,doctor consultation,treatment,True
+P00185,treatment,discharge,True
+P00186,registration,triage,True
+P00186,triage,doctor consultation,True
+P00186,doctor consultation,laboratory test,True
+P00186,laboratory test,x-ray,False
+P00186,x-ray,doctor consultation,True
+P00186,doctor consultation,discharge,True
+P00187,registration,triage,True
+P00187,triage,doctor consultation,True
+P00187,doctor consultation,laboratory test,True
+P00187,laboratory test,doctor consultation,True
+P00187,doctor consultation,discharge,True
+P00188,registration,triage,True
+P00188,triage,doctor consultation,True
+P00188,doctor consultation,x-ray,True
+P00188,x-ray,doctor consultation,True
+P00188,doctor consultation,treatment,True
+P00188,treatment,discharge,True
+P00189,registration,triage,True
+P00189,triage,triage,True
+P00189,triage,doctor consultation,True
+P00189,doctor consultation,discharge,True
+P00190,registration,triage,True
+P00190,triage,doctor consultation,True
+P00190,doctor consultation,x-ray,True
+P00190,x-ray,doctor consultation,True
+P00190,doctor consultation,doctor consultation,True
+P00190,doctor consultation,treatment,True
+P00190,treatment,discharge,True
+P00191,registration,triage,True
+P00191,triage,doctor consultation,True
+P00191,doctor consultation,x-ray,True
+P00191,x-ray,laboratory test,False
+P00191,laboratory test,triage,False
+P00191,triage,doctor consultation,True
+P00191,doctor consultation,discharge,True
+P00192,registration,triage,True
+P00192,triage,doctor consultation,True
+P00192,doctor consultation,x-ray,True
+P00192,x-ray,doctor consultation,True
+P00192,doctor consultation,discharge,True
+P00193,registration,triage,True
+P00193,triage,doctor consultation,True
+P00193,doctor consultation,x-ray,True
+P00193,x-ray,doctor consultation,True
+P00193,doctor consultation,discharge,True
+P00194,registration,triage,True
+P00194,triage,doctor consultation,True
+P00194,doctor consultation,laboratory test,True
+P00194,laboratory test,doctor consultation,True
+P00194,doctor consultation,discharge,True
+P00195,registration,triage,True
+P00195,triage,doctor consultation,True
+P00195,doctor consultation,laboratory test,True
+P00195,laboratory test,doctor consultation,True
+P00195,doctor consultation,treatment,True
+P00195,treatment,discharge,True
+P00196,registration,triage,True
+P00196,triage,doctor consultation,True
+P00196,doctor consultation,laboratory test,True
+P00196,laboratory test,doctor consultation,True
+P00196,doctor consultation,doctor consultation,True
+P00196,doctor consultation,treatment,True
+P00196,treatment,discharge,True
+P00197,registration,triage,True
+P00197,triage,doctor consultation,True
+P00197,doctor consultation,laboratory test,True
+P00197,laboratory test,triage,False
+P00197,triage,doctor consultation,True
+P00197,doctor consultation,treatment,True
+P00197,treatment,discharge,True
+P00198,registration,triage,True
+P00198,triage,doctor consultation,True
+P00198,doctor consultation,laboratory test,True
+P00198,laboratory test,doctor consultation,True
+P00198,doctor consultation,discharge,True
+P00199,registration,triage,True
+P00199,triage,doctor consultation,True
+P00199,doctor consultation,laboratory test,True
+P00199,laboratory test,triage,False
+P00199,triage,doctor consultation,True
+P00199,doctor consultation,treatment,True
+P00199,treatment,discharge,True
+P00200,registration,triage,True
+P00200,triage,triage,True
+P00200,triage,doctor consultation,True
+P00200,doctor consultation,discharge,True
+P00201,registration,triage,True
+P00201,triage,doctor consultation,True
+P00201,doctor consultation,x-ray,True
+P00201,x-ray,laboratory test,False
+P00201,laboratory test,doctor consultation,True
+P00201,doctor consultation,treatment,True
+P00201,treatment,discharge,True
+P00202,registration,triage,True
+P00202,triage,doctor consultation,True
+P00202,doctor consultation,x-ray,True
+P00202,x-ray,doctor consultation,True
+P00202,doctor consultation,treatment,True
+P00202,treatment,discharge,True
+P00203,registration,triage,True
+P00203,triage,doctor consultation,True
+P00203,doctor consultation,treatment,True
+P00203,treatment,discharge,True
+P00204,registration,triage,True
+P00204,triage,doctor consultation,True
+P00204,doctor consultation,treatment,True
+P00204,treatment,discharge,True
+P00205,registration,triage,True
+P00205,triage,doctor consultation,True
+P00205,doctor consultation,laboratory test,True
+P00205,laboratory test,doctor consultation,True
+P00205,doctor consultation,discharge,True
+P00206,registration,triage,True
+P00206,triage,doctor consultation,True
+P00206,doctor consultation,x-ray,True
+P00206,x-ray,laboratory test,False
+P00206,laboratory test,doctor consultation,True
+P00206,doctor consultation,treatment,True
+P00206,treatment,discharge,True
+P00207,registration,triage,True
+P00207,triage,doctor consultation,True
+P00207,doctor consultation,x-ray,True
+P00207,x-ray,laboratory test,False
+P00207,laboratory test,doctor consultation,True
+P00207,doctor consultation,discharge,True
+P00208,registration,triage,True
+P00208,triage,doctor consultation,True
+P00208,doctor consultation,x-ray,True
+P00208,x-ray,doctor consultation,True
+P00208,doctor consultation,treatment,True
+P00208,treatment,discharge,True
+P00209,registration,triage,True
+P00209,triage,doctor consultation,True
+P00209,doctor consultation,treatment,True
+P00209,treatment,discharge,True
+P00210,registration,triage,True
+P00210,triage,doctor consultation,True
+P00210,doctor consultation,x-ray,True
+P00210,x-ray,doctor consultation,True
+P00210,doctor consultation,discharge,True
+P00211,registration,triage,True
+P00211,triage,doctor consultation,True
+P00211,doctor consultation,x-ray,True
+P00211,x-ray,doctor consultation,True
+P00211,doctor consultation,treatment,True
+P00211,treatment,discharge,True
+P00212,registration,triage,True
+P00212,triage,doctor consultation,True
+P00212,doctor consultation,laboratory test,True
+P00212,laboratory test,x-ray,False
+P00212,x-ray,doctor consultation,True
+P00212,doctor consultation,doctor consultation,True
+P00212,doctor consultation,treatment,True
+P00212,treatment,discharge,True
+P00213,registration,triage,True
+P00213,triage,doctor consultation,True
+P00213,doctor consultation,doctor consultation,True
+P00213,doctor consultation,treatment,True
+P00213,treatment,discharge,True
+P00214,registration,triage,True
+P00214,triage,doctor consultation,True
+P00214,doctor consultation,treatment,True
+P00214,treatment,discharge,True
+P00215,registration,triage,True
+P00215,triage,doctor consultation,True
+P00215,doctor consultation,laboratory test,True
+P00215,laboratory test,triage,False
+P00215,triage,doctor consultation,True
+P00215,doctor consultation,discharge,True
+P00216,registration,triage,True
+P00216,triage,doctor consultation,True
+P00216,doctor consultation,x-ray,True
+P00216,x-ray,triage,False
+P00216,triage,doctor consultation,True
+P00216,doctor consultation,discharge,True
+P00217,registration,triage,True
+P00217,triage,doctor consultation,True
+P00217,doctor consultation,laboratory test,True
+P00217,laboratory test,doctor consultation,True
+P00217,doctor consultation,treatment,True
+P00217,treatment,discharge,True
+P00218,registration,triage,True
+P00218,triage,doctor consultation,True
+P00218,doctor consultation,discharge,True
+P00219,registration,triage,True
+P00219,triage,doctor consultation,True
+P00219,doctor consultation,laboratory test,True
+P00219,laboratory test,doctor consultation,True
+P00219,doctor consultation,treatment,True
+P00219,treatment,discharge,True
+P00220,registration,triage,True
+P00220,triage,doctor consultation,True
+P00220,doctor consultation,x-ray,True
+P00220,x-ray,doctor consultation,True
+P00220,doctor consultation,doctor consultation,True
+P00220,doctor consultation,treatment,True
+P00220,treatment,discharge,True
+P00221,registration,triage,True
+P00221,triage,doctor consultation,True
+P00221,doctor consultation,laboratory test,True
+P00221,laboratory test,doctor consultation,True
+P00221,doctor consultation,doctor consultation,True
+P00221,doctor consultation,treatment,True
+P00221,treatment,discharge,True
+P00222,registration,triage,True
+P00222,triage,doctor consultation,True
+P00222,doctor consultation,treatment,True
+P00222,treatment,discharge,True
+P00223,registration,triage,True
+P00223,triage,triage,True
+P00223,triage,doctor consultation,True
+P00223,doctor consultation,discharge,True
+P00224,registration,triage,True
+P00224,triage,doctor consultation,True
+P00224,doctor consultation,laboratory test,True
+P00224,laboratory test,doctor consultation,True
+P00224,doctor consultation,treatment,True
+P00224,treatment,discharge,True
+P00225,registration,triage,True
+P00225,triage,doctor consultation,True
+P00225,doctor consultation,laboratory test,True
+P00225,laboratory test,doctor consultation,True
+P00225,doctor consultation,treatment,True
+P00225,treatment,discharge,True
+P00226,registration,triage,True
+P00226,triage,doctor consultation,True
+P00226,doctor consultation,treatment,True
+P00226,treatment,discharge,True
+P00227,registration,triage,True
+P00227,triage,doctor consultation,True
+P00227,doctor consultation,treatment,True
+P00227,treatment,discharge,True
+P00228,registration,triage,True
+P00228,triage,doctor consultation,True
+P00228,doctor consultation,x-ray,True
+P00228,x-ray,doctor consultation,True
+P00228,doctor consultation,doctor consultation,True
+P00228,doctor consultation,treatment,True
+P00228,treatment,discharge,True
+P00229,registration,triage,True
+P00229,triage,triage,True
+P00229,triage,doctor consultation,True
+P00229,doctor consultation,treatment,True
+P00229,treatment,discharge,True
+P00230,registration,triage,True
+P00230,triage,doctor consultation,True
+P00230,doctor consultation,x-ray,True
+P00230,x-ray,doctor consultation,True
+P00230,doctor consultation,discharge,True
+P00231,registration,triage,True
+P00231,triage,doctor consultation,True
+P00231,doctor consultation,doctor consultation,True
+P00231,doctor consultation,treatment,True
+P00231,treatment,discharge,True
+P00232,registration,triage,True
+P00232,triage,doctor consultation,True
+P00232,doctor consultation,doctor consultation,True
+P00232,doctor consultation,treatment,True
+P00232,treatment,discharge,True
+P00233,registration,triage,True
+P00233,triage,doctor consultation,True
+P00233,doctor consultation,treatment,True
+P00233,treatment,discharge,True
+P00234,registration,triage,True
+P00234,triage,doctor consultation,True
+P00234,doctor consultation,treatment,True
+P00234,treatment,discharge,True
+P00235,registration,triage,True
+P00235,triage,doctor consultation,True
+P00235,doctor consultation,laboratory test,True
+P00235,laboratory test,triage,False
+P00235,triage,doctor consultation,True
+P00235,doctor consultation,treatment,True
+P00235,treatment,discharge,True
+P00236,registration,triage,True
+P00236,triage,doctor consultation,True
+P00236,doctor consultation,laboratory test,True
+P00236,laboratory test,x-ray,False
+P00236,x-ray,doctor consultation,True
+P00236,doctor consultation,treatment,True
+P00236,treatment,discharge,True
+P00237,registration,triage,True
+P00237,triage,doctor consultation,True
+P00237,doctor consultation,x-ray,True
+P00237,x-ray,laboratory test,False
+P00237,laboratory test,triage,False
+P00237,triage,doctor consultation,True
+P00237,doctor consultation,treatment,True
+P00237,treatment,discharge,True
+P00238,registration,triage,True
+P00238,triage,doctor consultation,True
+P00238,doctor consultation,x-ray,True
+P00238,x-ray,doctor consultation,True
+P00238,doctor consultation,doctor consultation,True
+P00238,doctor consultation,treatment,True
+P00238,treatment,discharge,True
+P00239,registration,triage,True
+P00239,triage,doctor consultation,True
+P00239,doctor consultation,laboratory test,True
+P00239,laboratory test,x-ray,False
+P00239,x-ray,doctor consultation,True
+P00239,doctor consultation,discharge,True
+P00240,registration,triage,True
+P00240,triage,doctor consultation,True
+P00240,doctor consultation,laboratory test,True
+P00240,laboratory test,triage,False
+P00240,triage,doctor consultation,True
+P00240,doctor consultation,treatment,True
+P00240,treatment,discharge,True
+P00241,registration,triage,True
+P00241,triage,doctor consultation,True
+P00241,doctor consultation,laboratory test,True
+P00241,laboratory test,x-ray,False
+P00241,x-ray,doctor consultation,True
+P00241,doctor consultation,discharge,True
+P00242,registration,triage,True
+P00242,triage,doctor consultation,True
+P00242,doctor consultation,laboratory test,True
+P00242,laboratory test,triage,False
+P00242,triage,doctor consultation,True
+P00242,doctor consultation,discharge,True
+P00243,registration,triage,True
+P00243,triage,triage,True
+P00243,triage,doctor consultation,True
+P00243,doctor consultation,treatment,True
+P00243,treatment,discharge,True
+P00244,registration,triage,True
+P00244,triage,doctor consultation,True
+P00244,doctor consultation,x-ray,True
+P00244,x-ray,triage,False
+P00244,triage,doctor consultation,True
+P00244,doctor consultation,discharge,True
+P00245,registration,triage,True
+P00245,triage,doctor consultation,True
+P00245,doctor consultation,laboratory test,True
+P00245,laboratory test,doctor consultation,True
+P00245,doctor consultation,treatment,True
+P00245,treatment,discharge,True
+P00246,registration,triage,True
+P00246,triage,triage,True
+P00246,triage,doctor consultation,True
+P00246,doctor consultation,treatment,True
+P00246,treatment,discharge,True
+P00247,registration,triage,True
+P00247,triage,doctor consultation,True
+P00247,doctor consultation,x-ray,True
+P00247,x-ray,doctor consultation,True
+P00247,doctor consultation,treatment,True
+P00247,treatment,discharge,True
+P00248,registration,triage,True
+P00248,triage,doctor consultation,True
+P00248,doctor consultation,laboratory test,True
+P00248,laboratory test,triage,False
+P00248,triage,doctor consultation,True
+P00248,doctor consultation,treatment,True
+P00248,treatment,discharge,True
+P00249,registration,triage,True
+P00249,triage,doctor consultation,True
+P00249,doctor consultation,x-ray,True
+P00249,x-ray,triage,False
+P00249,triage,doctor consultation,True
+P00249,doctor consultation,treatment,True
+P00249,treatment,discharge,True
+P00250,registration,triage,True
+P00250,triage,doctor consultation,True
+P00250,doctor consultation,x-ray,True
+P00250,x-ray,doctor consultation,True
+P00250,doctor consultation,treatment,True
+P00250,treatment,discharge,True
+P00251,registration,triage,True
+P00251,triage,doctor consultation,True
+P00251,doctor consultation,laboratory test,True
+P00251,laboratory test,x-ray,False
+P00251,x-ray,doctor consultation,True
+P00251,doctor consultation,doctor consultation,True
+P00251,doctor consultation,discharge,True
+P00252,registration,triage,True
+P00252,triage,doctor consultation,True
+P00252,doctor consultation,laboratory test,True
+P00252,laboratory test,doctor consultation,True
+P00252,doctor consultation,treatment,True
+P00252,treatment,discharge,True
+P00253,registration,triage,True
+P00253,triage,doctor consultation,True
+P00253,doctor consultation,laboratory test,True
+P00253,laboratory test,x-ray,False
+P00253,x-ray,triage,False
+P00253,triage,doctor consultation,True
+P00253,doctor consultation,treatment,True
+P00253,treatment,discharge,True
+P00254,registration,triage,True
+P00254,triage,doctor consultation,True
+P00254,doctor consultation,laboratory test,True
+P00254,laboratory test,x-ray,False
+P00254,x-ray,triage,False
+P00254,triage,doctor consultation,True
+P00254,doctor consultation,discharge,True
+P00255,registration,triage,True
+P00255,triage,doctor consultation,True
+P00255,doctor consultation,x-ray,True
+P00255,x-ray,triage,False
+P00255,triage,doctor consultation,True
+P00255,doctor consultation,treatment,True
+P00255,treatment,discharge,True
+P00256,registration,triage,True
+P00256,triage,doctor consultation,True
+P00256,doctor consultation,x-ray,True
+P00256,x-ray,triage,False
+P00256,triage,doctor consultation,True
+P00256,doctor consultation,treatment,True
+P00256,treatment,discharge,True
+P00257,registration,triage,True
+P00257,triage,doctor consultation,True
+P00257,doctor consultation,doctor consultation,True
+P00257,doctor consultation,treatment,True
+P00257,treatment,discharge,True
+P00258,registration,triage,True
+P00258,triage,triage,True
+P00258,triage,doctor consultation,True
+P00258,doctor consultation,treatment,True
+P00258,treatment,discharge,True
+P00259,registration,triage,True
+P00259,triage,doctor consultation,True
+P00259,doctor consultation,laboratory test,True
+P00259,laboratory test,doctor consultation,True
+P00259,doctor consultation,doctor consultation,True
+P00259,doctor consultation,treatment,True
+P00259,treatment,discharge,True
+P00260,registration,triage,True
+P00260,triage,doctor consultation,True
+P00260,doctor consultation,x-ray,True
+P00260,x-ray,laboratory test,False
+P00260,laboratory test,doctor consultation,True
+P00260,doctor consultation,treatment,True
+P00260,treatment,discharge,True
+P00261,registration,triage,True
+P00261,triage,doctor consultation,True
+P00261,doctor consultation,laboratory test,True
+P00261,laboratory test,triage,False
+P00261,triage,doctor consultation,True
+P00261,doctor consultation,treatment,True
+P00261,treatment,discharge,True
+P00262,registration,triage,True
+P00262,triage,doctor consultation,True
+P00262,doctor consultation,laboratory test,True
+P00262,laboratory test,triage,False
+P00262,triage,doctor consultation,True
+P00262,doctor consultation,discharge,True
+P00263,registration,triage,True
+P00263,triage,doctor consultation,True
+P00263,doctor consultation,laboratory test,True
+P00263,laboratory test,doctor consultation,True
+P00263,doctor consultation,treatment,True
+P00263,treatment,discharge,True
+P00264,registration,triage,True
+P00264,triage,doctor consultation,True
+P00264,doctor consultation,laboratory test,True
+P00264,laboratory test,doctor consultation,True
+P00264,doctor consultation,discharge,True
+P00265,registration,triage,True
+P00265,triage,doctor consultation,True
+P00265,doctor consultation,x-ray,True
+P00265,x-ray,doctor consultation,True
+P00265,doctor consultation,discharge,True
+P00266,registration,triage,True
+P00266,triage,doctor consultation,True
+P00266,doctor consultation,laboratory test,True
+P00266,laboratory test,doctor consultation,True
+P00266,doctor consultation,discharge,True
+P00267,registration,triage,True
+P00267,triage,doctor consultation,True
+P00267,doctor consultation,x-ray,True
+P00267,x-ray,laboratory test,False
+P00267,laboratory test,doctor consultation,True
+P00267,doctor consultation,doctor consultation,True
+P00267,doctor consultation,discharge,True
+P00268,registration,triage,True
+P00268,triage,doctor consultation,True
+P00268,doctor consultation,discharge,True
+P00269,registration,triage,True
+P00269,triage,doctor consultation,True
+P00269,doctor consultation,x-ray,True
+P00269,x-ray,triage,False
+P00269,triage,doctor consultation,True
+P00269,doctor consultation,treatment,True
+P00269,treatment,discharge,True
+P00270,registration,triage,True
+P00270,triage,doctor consultation,True
+P00270,doctor consultation,x-ray,True
+P00270,x-ray,triage,False
+P00270,triage,doctor consultation,True
+P00270,doctor consultation,treatment,True
+P00270,treatment,discharge,True
+P00271,registration,triage,True
+P00271,triage,doctor consultation,True
+P00271,doctor consultation,x-ray,True
+P00271,x-ray,doctor consultation,True
+P00271,doctor consultation,treatment,True
+P00271,treatment,discharge,True
+P00272,registration,triage,True
+P00272,triage,triage,True
+P00272,triage,doctor consultation,True
+P00272,doctor consultation,treatment,True
+P00272,treatment,discharge,True
+P00273,registration,triage,True
+P00273,triage,doctor consultation,True
+P00273,doctor consultation,x-ray,True
+P00273,x-ray,triage,False
+P00273,triage,doctor consultation,True
+P00273,doctor consultation,treatment,True
+P00273,treatment,discharge,True
+P00274,registration,triage,True
+P00274,triage,doctor consultation,True
+P00274,doctor consultation,x-ray,True
+P00274,x-ray,laboratory test,False
+P00274,laboratory test,doctor consultation,True
+P00274,doctor consultation,treatment,True
+P00274,treatment,discharge,True
+P00275,registration,triage,True
+P00275,triage,doctor consultation,True
+P00275,doctor consultation,x-ray,True
+P00275,x-ray,laboratory test,False
+P00275,laboratory test,triage,False
+P00275,triage,doctor consultation,True
+P00275,doctor consultation,treatment,True
+P00275,treatment,discharge,True
+P00276,registration,triage,True
+P00276,triage,doctor consultation,True
+P00276,doctor consultation,laboratory test,True
+P00276,laboratory test,triage,False
+P00276,triage,doctor consultation,True
+P00276,doctor consultation,treatment,True
+P00276,treatment,discharge,True
+P00277,registration,triage,True
+P00277,triage,doctor consultation,True
+P00277,doctor consultation,laboratory test,True
+P00277,laboratory test,doctor consultation,True
+P00277,doctor consultation,doctor consultation,True
+P00277,doctor consultation,discharge,True
+P00278,registration,triage,True
+P00278,triage,doctor consultation,True
+P00278,doctor consultation,laboratory test,True
+P00278,laboratory test,x-ray,False
+P00278,x-ray,doctor consultation,True
+P00278,doctor consultation,treatment,True
+P00278,treatment,discharge,True
+P00279,registration,triage,True
+P00279,triage,doctor consultation,True
+P00279,doctor consultation,laboratory test,True
+P00279,laboratory test,doctor consultation,True
+P00279,doctor consultation,doctor consultation,True
+P00279,doctor consultation,discharge,True
+P00280,registration,triage,True
+P00280,triage,triage,True
+P00280,triage,doctor consultation,True
+P00280,doctor consultation,treatment,True
+P00280,treatment,discharge,True
+P00281,registration,triage,True
+P00281,triage,doctor consultation,True
+P00281,doctor consultation,laboratory test,True
+P00281,laboratory test,x-ray,False
+P00281,x-ray,doctor consultation,True
+P00281,doctor consultation,treatment,True
+P00281,treatment,discharge,True
+P00282,registration,triage,True
+P00282,triage,doctor consultation,True
+P00282,doctor consultation,x-ray,True
+P00282,x-ray,laboratory test,False
+P00282,laboratory test,doctor consultation,True
+P00282,doctor consultation,doctor consultation,True
+P00282,doctor consultation,treatment,True
+P00282,treatment,discharge,True
+P00283,registration,triage,True
+P00283,triage,triage,True
+P00283,triage,doctor consultation,True
+P00283,doctor consultation,treatment,True
+P00283,treatment,discharge,True
+P00284,registration,triage,True
+P00284,triage,doctor consultation,True
+P00284,doctor consultation,x-ray,True
+P00284,x-ray,doctor consultation,True
+P00284,doctor consultation,discharge,True
+P00285,registration,triage,True
+P00285,triage,doctor consultation,True
+P00285,doctor consultation,discharge,True
+P00286,registration,triage,True
+P00286,triage,doctor consultation,True
+P00286,doctor consultation,laboratory test,True
+P00286,laboratory test,x-ray,False
+P00286,x-ray,triage,False
+P00286,triage,doctor consultation,True
+P00286,doctor consultation,treatment,True
+P00286,treatment,discharge,True
+P00287,registration,triage,True
+P00287,triage,doctor consultation,True
+P00287,doctor consultation,laboratory test,True
+P00287,laboratory test,x-ray,False
+P00287,x-ray,doctor consultation,True
+P00287,doctor consultation,doctor consultation,True
+P00287,doctor consultation,discharge,True
+P00288,registration,triage,True
+P00288,triage,doctor consultation,True
+P00288,doctor consultation,discharge,True
+P00289,registration,triage,True
+P00289,triage,doctor consultation,True
+P00289,doctor consultation,laboratory test,True
+P00289,laboratory test,x-ray,False
+P00289,x-ray,doctor consultation,True
+P00289,doctor consultation,discharge,True
+P00290,registration,triage,True
+P00290,triage,doctor consultation,True
+P00290,doctor consultation,x-ray,True
+P00290,x-ray,laboratory test,False
+P00290,laboratory test,doctor consultation,True
+P00290,doctor consultation,treatment,True
+P00290,treatment,discharge,True
+P00291,registration,triage,True
+P00291,triage,doctor consultation,True
+P00291,doctor consultation,laboratory test,True
+P00291,laboratory test,x-ray,False
+P00291,x-ray,doctor consultation,True
+P00291,doctor consultation,discharge,True
+P00292,registration,triage,True
+P00292,triage,doctor consultation,True
+P00292,doctor consultation,x-ray,True
+P00292,x-ray,laboratory test,False
+P00292,laboratory test,triage,False
+P00292,triage,doctor consultation,True
+P00292,doctor consultation,treatment,True
+P00292,treatment,discharge,True
+P00293,registration,triage,True
+P00293,triage,doctor consultation,True
+P00293,doctor consultation,x-ray,True
+P00293,x-ray,laboratory test,False
+P00293,laboratory test,doctor consultation,True
+P00293,doctor consultation,doctor consultation,True
+P00293,doctor consultation,treatment,True
+P00293,treatment,discharge,True
+P00294,registration,triage,True
+P00294,triage,doctor consultation,True
+P00294,doctor consultation,x-ray,True
+P00294,x-ray,doctor consultation,True
+P00294,doctor consultation,treatment,True
+P00294,treatment,discharge,True
+P00295,registration,triage,True
+P00295,triage,doctor consultation,True
+P00295,doctor consultation,discharge,True
+P00296,registration,triage,True
+P00296,triage,doctor consultation,True
+P00296,doctor consultation,x-ray,True
+P00296,x-ray,doctor consultation,True
+P00296,doctor consultation,treatment,True
+P00296,treatment,discharge,True
+P00297,registration,triage,True
+P00297,triage,doctor consultation,True
+P00297,doctor consultation,treatment,True
+P00297,treatment,discharge,True
+P00298,registration,triage,True
+P00298,triage,doctor consultation,True
+P00298,doctor consultation,laboratory test,True
+P00298,laboratory test,triage,False
+P00298,triage,doctor consultation,True
+P00298,doctor consultation,treatment,True
+P00298,treatment,discharge,True
+P00299,registration,triage,True
+P00299,triage,doctor consultation,True
+P00299,doctor consultation,x-ray,True
+P00299,x-ray,triage,False
+P00299,triage,doctor consultation,True
+P00299,doctor consultation,treatment,True
+P00299,treatment,discharge,True
+P00300,registration,triage,True
+P00300,triage,doctor consultation,True
+P00300,doctor consultation,x-ray,True
+P00300,x-ray,doctor consultation,True
+P00300,doctor consultation,doctor consultation,True
+P00300,doctor consultation,treatment,True
+P00300,treatment,discharge,True
+P00301,registration,triage,True
+P00301,triage,doctor consultation,True
+P00301,doctor consultation,x-ray,True
+P00301,x-ray,doctor consultation,True
+P00301,doctor consultation,treatment,True
+P00301,treatment,discharge,True
+P00302,registration,triage,True
+P00302,triage,doctor consultation,True
+P00302,doctor consultation,x-ray,True
+P00302,x-ray,triage,False
+P00302,triage,doctor consultation,True
+P00302,doctor consultation,treatment,True
+P00302,treatment,discharge,True
+P00303,registration,triage,True
+P00303,triage,doctor consultation,True
+P00303,doctor consultation,laboratory test,True
+P00303,laboratory test,x-ray,False
+P00303,x-ray,doctor consultation,True
+P00303,doctor consultation,treatment,True
+P00303,treatment,discharge,True
+P00304,registration,triage,True
+P00304,triage,doctor consultation,True
+P00304,doctor consultation,laboratory test,True
+P00304,laboratory test,doctor consultation,True
+P00304,doctor consultation,treatment,True
+P00304,treatment,discharge,True
+P00305,registration,triage,True
+P00305,triage,doctor consultation,True
+P00305,doctor consultation,x-ray,True
+P00305,x-ray,doctor consultation,True
+P00305,doctor consultation,treatment,True
+P00305,treatment,discharge,True
+P00306,registration,triage,True
+P00306,triage,doctor consultation,True
+P00306,doctor consultation,x-ray,True
+P00306,x-ray,laboratory test,False
+P00306,laboratory test,triage,False
+P00306,triage,doctor consultation,True
+P00306,doctor consultation,treatment,True
+P00306,treatment,discharge,True
+P00307,registration,triage,True
+P00307,triage,doctor consultation,True
+P00307,doctor consultation,discharge,True
+P00308,registration,triage,True
+P00308,triage,doctor consultation,True
+P00308,doctor consultation,x-ray,True
+P00308,x-ray,doctor consultation,True
+P00308,doctor consultation,treatment,True
+P00308,treatment,discharge,True
+P00309,registration,triage,True
+P00309,triage,doctor consultation,True
+P00309,doctor consultation,laboratory test,True
+P00309,laboratory test,x-ray,False
+P00309,x-ray,triage,False
+P00309,triage,doctor consultation,True
+P00309,doctor consultation,treatment,True
+P00309,treatment,discharge,True
+P00310,registration,triage,True
+P00310,triage,doctor consultation,True
+P00310,doctor consultation,x-ray,True
+P00310,x-ray,doctor consultation,True
+P00310,doctor consultation,discharge,True
+P00311,registration,triage,True
+P00311,triage,doctor consultation,True
+P00311,doctor consultation,x-ray,True
+P00311,x-ray,laboratory test,False
+P00311,laboratory test,doctor consultation,True
+P00311,doctor consultation,doctor consultation,True
+P00311,doctor consultation,treatment,True
+P00311,treatment,discharge,True
+P00312,registration,triage,True
+P00312,triage,doctor consultation,True
+P00312,doctor consultation,laboratory test,True
+P00312,laboratory test,x-ray,False
+P00312,x-ray,triage,False
+P00312,triage,doctor consultation,True
+P00312,doctor consultation,treatment,True
+P00312,treatment,discharge,True
+P00313,registration,triage,True
+P00313,triage,doctor consultation,True
+P00313,doctor consultation,doctor consultation,True
+P00313,doctor consultation,treatment,True
+P00313,treatment,discharge,True
+P00314,registration,triage,True
+P00314,triage,doctor consultation,True
+P00314,doctor consultation,x-ray,True
+P00314,x-ray,doctor consultation,True
+P00314,doctor consultation,doctor consultation,True
+P00314,doctor consultation,discharge,True
+P00315,registration,triage,True
+P00315,triage,doctor consultation,True
+P00315,doctor consultation,x-ray,True
+P00315,x-ray,doctor consultation,True
+P00315,doctor consultation,discharge,True
+P00316,registration,triage,True
+P00316,triage,triage,True
+P00316,triage,doctor consultation,True
+P00316,doctor consultation,treatment,True
+P00316,treatment,discharge,True
+P00317,registration,triage,True
+P00317,triage,triage,True
+P00317,triage,doctor consultation,True
+P00317,doctor consultation,treatment,True
+P00317,treatment,discharge,True
+P00318,registration,triage,True
+P00318,triage,doctor consultation,True
+P00318,doctor consultation,x-ray,True
+P00318,x-ray,laboratory test,False
+P00318,laboratory test,doctor consultation,True
+P00318,doctor consultation,treatment,True
+P00318,treatment,discharge,True
+P00319,registration,triage,True
+P00319,triage,doctor consultation,True
+P00319,doctor consultation,laboratory test,True
+P00319,laboratory test,doctor consultation,True
+P00319,doctor consultation,doctor consultation,True
+P00319,doctor consultation,treatment,True
+P00319,treatment,discharge,True
+P00320,registration,triage,True
+P00320,triage,doctor consultation,True
+P00320,doctor consultation,laboratory test,True
+P00320,laboratory test,doctor consultation,True
+P00320,doctor consultation,discharge,True
+P00321,registration,triage,True
+P00321,triage,doctor consultation,True
+P00321,doctor consultation,laboratory test,True
+P00321,laboratory test,doctor consultation,True
+P00321,doctor consultation,discharge,True
+P00322,registration,triage,True
+P00322,triage,doctor consultation,True
+P00322,doctor consultation,x-ray,True
+P00322,x-ray,laboratory test,False
+P00322,laboratory test,doctor consultation,True
+P00322,doctor consultation,doctor consultation,True
+P00322,doctor consultation,treatment,True
+P00322,treatment,discharge,True
+P00323,registration,triage,True
+P00323,triage,doctor consultation,True
+P00323,doctor consultation,x-ray,True
+P00323,x-ray,laboratory test,False
+P00323,laboratory test,doctor consultation,True
+P00323,doctor consultation,treatment,True
+P00323,treatment,discharge,True
+P00324,registration,triage,True
+P00324,triage,doctor consultation,True
+P00324,doctor consultation,x-ray,True
+P00324,x-ray,doctor consultation,True
+P00324,doctor consultation,treatment,True
+P00324,treatment,discharge,True
+P00325,registration,triage,True
+P00325,triage,doctor consultation,True
+P00325,doctor consultation,x-ray,True
+P00325,x-ray,laboratory test,False
+P00325,laboratory test,doctor consultation,True
+P00325,doctor consultation,treatment,True
+P00325,treatment,discharge,True
+P00326,registration,triage,True
+P00326,triage,doctor consultation,True
+P00326,doctor consultation,laboratory test,True
+P00326,laboratory test,doctor consultation,True
+P00326,doctor consultation,treatment,True
+P00326,treatment,discharge,True
+P00327,registration,triage,True
+P00327,triage,doctor consultation,True
+P00327,doctor consultation,laboratory test,True
+P00327,laboratory test,doctor consultation,True
+P00327,doctor consultation,treatment,True
+P00327,treatment,discharge,True
+P00328,registration,triage,True
+P00328,triage,doctor consultation,True
+P00328,doctor consultation,laboratory test,True
+P00328,laboratory test,x-ray,False
+P00328,x-ray,doctor consultation,True
+P00328,doctor consultation,treatment,True
+P00328,treatment,discharge,True
+P00329,registration,triage,True
+P00329,triage,doctor consultation,True
+P00329,doctor consultation,laboratory test,True
+P00329,laboratory test,doctor consultation,True
+P00329,doctor consultation,discharge,True
+P00330,registration,triage,True
+P00330,triage,doctor consultation,True
+P00330,doctor consultation,laboratory test,True
+P00330,laboratory test,triage,False
+P00330,triage,doctor consultation,True
+P00330,doctor consultation,treatment,True
+P00330,treatment,discharge,True
+P00331,registration,triage,True
+P00331,triage,doctor consultation,True
+P00331,doctor consultation,laboratory test,True
+P00331,laboratory test,triage,False
+P00331,triage,doctor consultation,True
+P00331,doctor consultation,treatment,True
+P00331,treatment,discharge,True
+P00332,registration,triage,True
+P00332,triage,doctor consultation,True
+P00332,doctor consultation,discharge,True
+P00333,registration,triage,True
+P00333,triage,doctor consultation,True
+P00333,doctor consultation,laboratory test,True
+P00333,laboratory test,doctor consultation,True
+P00333,doctor consultation,doctor consultation,True
+P00333,doctor consultation,treatment,True
+P00333,treatment,discharge,True
+P00334,registration,triage,True
+P00334,triage,doctor consultation,True
+P00334,doctor consultation,x-ray,True
+P00334,x-ray,laboratory test,False
+P00334,laboratory test,doctor consultation,True
+P00334,doctor consultation,doctor consultation,True
+P00334,doctor consultation,discharge,True
+P00335,registration,triage,True
+P00335,triage,doctor consultation,True
+P00335,doctor consultation,laboratory test,True
+P00335,laboratory test,doctor consultation,True
+P00335,doctor consultation,treatment,True
+P00335,treatment,discharge,True
+P00336,registration,triage,True
+P00336,triage,doctor consultation,True
+P00336,doctor consultation,laboratory test,True
+P00336,laboratory test,x-ray,False
+P00336,x-ray,doctor consultation,True
+P00336,doctor consultation,discharge,True
+P00337,registration,triage,True
+P00337,triage,doctor consultation,True
+P00337,doctor consultation,laboratory test,True
+P00337,laboratory test,doctor consultation,True
+P00337,doctor consultation,treatment,True
+P00337,treatment,discharge,True
+P00338,registration,triage,True
+P00338,triage,doctor consultation,True
+P00338,doctor consultation,laboratory test,True
+P00338,laboratory test,triage,False
+P00338,triage,doctor consultation,True
+P00338,doctor consultation,treatment,True
+P00338,treatment,discharge,True
+P00339,registration,triage,True
+P00339,triage,doctor consultation,True
+P00339,doctor consultation,laboratory test,True
+P00339,laboratory test,x-ray,False
+P00339,x-ray,triage,False
+P00339,triage,doctor consultation,True
+P00339,doctor consultation,treatment,True
+P00339,treatment,discharge,True
+P00340,registration,triage,True
+P00340,triage,doctor consultation,True
+P00340,doctor consultation,x-ray,True
+P00340,x-ray,doctor consultation,True
+P00340,doctor consultation,treatment,True
+P00340,treatment,discharge,True
+P00341,registration,triage,True
+P00341,triage,doctor consultation,True
+P00341,doctor consultation,x-ray,True
+P00341,x-ray,doctor consultation,True
+P00341,doctor consultation,treatment,True
+P00341,treatment,discharge,True
+P00342,registration,triage,True
+P00342,triage,doctor consultation,True
+P00342,doctor consultation,x-ray,True
+P00342,x-ray,triage,False
+P00342,triage,doctor consultation,True
+P00342,doctor consultation,treatment,True
+P00342,treatment,discharge,True
+P00343,registration,triage,True
+P00343,triage,doctor consultation,True
+P00343,doctor consultation,x-ray,True
+P00343,x-ray,doctor consultation,True
+P00343,doctor consultation,treatment,True
+P00343,treatment,discharge,True
+P00344,registration,triage,True
+P00344,triage,doctor consultation,True
+P00344,doctor consultation,treatment,True
+P00344,treatment,discharge,True
+P00345,registration,triage,True
+P00345,triage,doctor consultation,True
+P00345,doctor consultation,x-ray,True
+P00345,x-ray,doctor consultation,True
+P00345,doctor consultation,treatment,True
+P00345,treatment,discharge,True
+P00346,registration,triage,True
+P00346,triage,doctor consultation,True
+P00346,doctor consultation,laboratory test,True
+P00346,laboratory test,doctor consultation,True
+P00346,doctor consultation,discharge,True
+P00347,registration,triage,True
+P00347,triage,doctor consultation,True
+P00347,doctor consultation,x-ray,True
+P00347,x-ray,laboratory test,False
+P00347,laboratory test,triage,False
+P00347,triage,doctor consultation,True
+P00347,doctor consultation,treatment,True
+P00347,treatment,discharge,True
+P00348,registration,triage,True
+P00348,triage,doctor consultation,True
+P00348,doctor consultation,laboratory test,True
+P00348,laboratory test,doctor consultation,True
+P00348,doctor consultation,doctor consultation,True
+P00348,doctor consultation,treatment,True
+P00348,treatment,discharge,True
+P00349,registration,triage,True
+P00349,triage,doctor consultation,True
+P00349,doctor consultation,x-ray,True
+P00349,x-ray,laboratory test,False
+P00349,laboratory test,doctor consultation,True
+P00349,doctor consultation,treatment,True
+P00349,treatment,discharge,True
+P00350,registration,triage,True
+P00350,triage,doctor consultation,True
+P00350,doctor consultation,laboratory test,True
+P00350,laboratory test,doctor consultation,True
+P00350,doctor consultation,discharge,True
+P00351,registration,triage,True
+P00351,triage,doctor consultation,True
+P00351,doctor consultation,x-ray,True
+P00351,x-ray,doctor consultation,True
+P00351,doctor consultation,treatment,True
+P00351,treatment,discharge,True
+P00352,registration,triage,True
+P00352,triage,doctor consultation,True
+P00352,doctor consultation,treatment,True
+P00352,treatment,discharge,True
+P00353,registration,triage,True
+P00353,triage,doctor consultation,True
+P00353,doctor consultation,laboratory test,True
+P00353,laboratory test,triage,False
+P00353,triage,doctor consultation,True
+P00353,doctor consultation,treatment,True
+P00353,treatment,discharge,True
+P00354,registration,triage,True
+P00354,triage,doctor consultation,True
+P00354,doctor consultation,treatment,True
+P00354,treatment,discharge,True
+P00355,registration,triage,True
+P00355,triage,doctor consultation,True
+P00355,doctor consultation,laboratory test,True
+P00355,laboratory test,x-ray,False
+P00355,x-ray,doctor consultation,True
+P00355,doctor consultation,doctor consultation,True
+P00355,doctor consultation,discharge,True
+P00356,registration,triage,True
+P00356,triage,doctor consultation,True
+P00356,doctor consultation,doctor consultation,True
+P00356,doctor consultation,treatment,True
+P00356,treatment,discharge,True
+P00357,registration,triage,True
+P00357,triage,doctor consultation,True
+P00357,doctor consultation,laboratory test,True
+P00357,laboratory test,x-ray,False
+P00357,x-ray,doctor consultation,True
+P00357,doctor consultation,discharge,True
+P00358,registration,triage,True
+P00358,triage,doctor consultation,True
+P00358,doctor consultation,laboratory test,True
+P00358,laboratory test,doctor consultation,True
+P00358,doctor consultation,doctor consultation,True
+P00358,doctor consultation,discharge,True
+P00359,registration,triage,True
+P00359,triage,doctor consultation,True
+P00359,doctor consultation,laboratory test,True
+P00359,laboratory test,doctor consultation,True
+P00359,doctor consultation,treatment,True
+P00359,treatment,discharge,True
+P00360,registration,triage,True
+P00360,triage,doctor consultation,True
+P00360,doctor consultation,x-ray,True
+P00360,x-ray,doctor consultation,True
+P00360,doctor consultation,treatment,True
+P00360,treatment,discharge,True
+P00361,registration,triage,True
+P00361,triage,doctor consultation,True
+P00361,doctor consultation,laboratory test,True
+P00361,laboratory test,doctor consultation,True
+P00361,doctor consultation,treatment,True
+P00361,treatment,discharge,True
+P00362,registration,triage,True
+P00362,triage,doctor consultation,True
+P00362,doctor consultation,laboratory test,True
+P00362,laboratory test,x-ray,False
+P00362,x-ray,doctor consultation,True
+P00362,doctor consultation,discharge,True
+P00363,registration,triage,True
+P00363,triage,doctor consultation,True
+P00363,doctor consultation,x-ray,True
+P00363,x-ray,doctor consultation,True
+P00363,doctor consultation,doctor consultation,True
+P00363,doctor consultation,discharge,True
+P00364,registration,triage,True
+P00364,triage,doctor consultation,True
+P00364,doctor consultation,x-ray,True
+P00364,x-ray,doctor consultation,True
+P00364,doctor consultation,treatment,True
+P00364,treatment,discharge,True
+P00365,registration,triage,True
+P00365,triage,doctor consultation,True
+P00365,doctor consultation,laboratory test,True
+P00365,laboratory test,doctor consultation,True
+P00365,doctor consultation,doctor consultation,True
+P00365,doctor consultation,discharge,True
+P00366,registration,triage,True
+P00366,triage,doctor consultation,True
+P00366,doctor consultation,x-ray,True
+P00366,x-ray,doctor consultation,True
+P00366,doctor consultation,treatment,True
+P00366,treatment,discharge,True
+P00367,registration,triage,True
+P00367,triage,doctor consultation,True
+P00367,doctor consultation,treatment,True
+P00367,treatment,discharge,True
+P00368,registration,triage,True
+P00368,triage,doctor consultation,True
+P00368,doctor consultation,x-ray,True
+P00368,x-ray,doctor consultation,True
+P00368,doctor consultation,doctor consultation,True
+P00368,doctor consultation,treatment,True
+P00368,treatment,discharge,True
+P00369,registration,triage,True
+P00369,triage,doctor consultation,True
+P00369,doctor consultation,x-ray,True
+P00369,x-ray,doctor consultation,True
+P00369,doctor consultation,treatment,True
+P00369,treatment,discharge,True
+P00370,registration,triage,True
+P00370,triage,doctor consultation,True
+P00370,doctor consultation,x-ray,True
+P00370,x-ray,doctor consultation,True
+P00370,doctor consultation,discharge,True
+P00371,registration,triage,True
+P00371,triage,doctor consultation,True
+P00371,doctor consultation,treatment,True
+P00371,treatment,discharge,True
+P00372,registration,triage,True
+P00372,triage,triage,True
+P00372,triage,doctor consultation,True
+P00372,doctor consultation,treatment,True
+P00372,treatment,discharge,True
+P00373,registration,triage,True
+P00373,triage,doctor consultation,True
+P00373,doctor consultation,x-ray,True
+P00373,x-ray,doctor consultation,True
+P00373,doctor consultation,doctor consultation,True
+P00373,doctor consultation,discharge,True
+P00374,registration,triage,True
+P00374,triage,doctor consultation,True
+P00374,doctor consultation,treatment,True
+P00374,treatment,discharge,True
+P00375,registration,triage,True
+P00375,triage,doctor consultation,True
+P00375,doctor consultation,x-ray,True
+P00375,x-ray,laboratory test,False
+P00375,laboratory test,doctor consultation,True
+P00375,doctor consultation,doctor consultation,True
+P00375,doctor consultation,treatment,True
+P00375,treatment,discharge,True
+P00376,registration,triage,True
+P00376,triage,doctor consultation,True
+P00376,doctor consultation,laboratory test,True
+P00376,laboratory test,doctor consultation,True
+P00376,doctor consultation,treatment,True
+P00376,treatment,discharge,True
+P00377,registration,triage,True
+P00377,triage,doctor consultation,True
+P00377,doctor consultation,x-ray,True
+P00377,x-ray,doctor consultation,True
+P00377,doctor consultation,treatment,True
+P00377,treatment,discharge,True
+P00378,registration,triage,True
+P00378,triage,doctor consultation,True
+P00378,doctor consultation,laboratory test,True
+P00378,laboratory test,x-ray,False
+P00378,x-ray,triage,False
+P00378,triage,doctor consultation,True
+P00378,doctor consultation,discharge,True
+P00379,registration,triage,True
+P00379,triage,doctor consultation,True
+P00379,doctor consultation,x-ray,True
+P00379,x-ray,doctor consultation,True
+P00379,doctor consultation,treatment,True
+P00379,treatment,discharge,True
+P00380,registration,triage,True
+P00380,triage,doctor consultation,True
+P00380,doctor consultation,x-ray,True
+P00380,x-ray,laboratory test,False
+P00380,laboratory test,doctor consultation,True
+P00380,doctor consultation,treatment,True
+P00380,treatment,discharge,True
+P00381,registration,triage,True
+P00381,triage,doctor consultation,True
+P00381,doctor consultation,treatment,True
+P00381,treatment,discharge,True
+P00382,registration,triage,True
+P00382,triage,doctor consultation,True
+P00382,doctor consultation,x-ray,True
+P00382,x-ray,doctor consultation,True
+P00382,doctor consultation,doctor consultation,True
+P00382,doctor consultation,treatment,True
+P00382,treatment,discharge,True
+P00383,registration,triage,True
+P00383,triage,doctor consultation,True
+P00383,doctor consultation,doctor consultation,True
+P00383,doctor consultation,treatment,True
+P00383,treatment,discharge,True
+P00384,registration,triage,True
+P00384,triage,doctor consultation,True
+P00384,doctor consultation,x-ray,True
+P00384,x-ray,triage,False
+P00384,triage,doctor consultation,True
+P00384,doctor consultation,treatment,True
+P00384,treatment,discharge,True
+P00385,registration,triage,True
+P00385,triage,doctor consultation,True
+P00385,doctor consultation,treatment,True
+P00385,treatment,discharge,True
+P00386,registration,triage,True
+P00386,triage,triage,True
+P00386,triage,doctor consultation,True
+P00386,doctor consultation,treatment,True
+P00386,treatment,discharge,True
+P00387,registration,triage,True
+P00387,triage,doctor consultation,True
+P00387,doctor consultation,discharge,True
+P00388,registration,triage,True
+P00388,triage,doctor consultation,True
+P00388,doctor consultation,laboratory test,True
+P00388,laboratory test,doctor consultation,True
+P00388,doctor consultation,treatment,True
+P00388,treatment,discharge,True
+P00389,registration,triage,True
+P00389,triage,doctor consultation,True
+P00389,doctor consultation,x-ray,True
+P00389,x-ray,triage,False
+P00389,triage,doctor consultation,True
+P00389,doctor consultation,treatment,True
+P00389,treatment,discharge,True
+P00390,registration,triage,True
+P00390,triage,doctor consultation,True
+P00390,doctor consultation,treatment,True
+P00390,treatment,discharge,True
+P00391,registration,triage,True
+P00391,triage,doctor consultation,True
+P00391,doctor consultation,laboratory test,True
+P00391,laboratory test,x-ray,False
+P00391,x-ray,doctor consultation,True
+P00391,doctor consultation,doctor consultation,True
+P00391,doctor consultation,discharge,True
+P00392,registration,triage,True
+P00392,triage,doctor consultation,True
+P00392,doctor consultation,laboratory test,True
+P00392,laboratory test,x-ray,False
+P00392,x-ray,doctor consultation,True
+P00392,doctor consultation,doctor consultation,True
+P00392,doctor consultation,treatment,True
+P00392,treatment,discharge,True
+P00393,registration,triage,True
+P00393,triage,doctor consultation,True
+P00393,doctor consultation,laboratory test,True
+P00393,laboratory test,doctor consultation,True
+P00393,doctor consultation,treatment,True
+P00393,treatment,discharge,True
+P00394,registration,triage,True
+P00394,triage,doctor consultation,True
+P00394,doctor consultation,laboratory test,True
+P00394,laboratory test,doctor consultation,True
+P00394,doctor consultation,doctor consultation,True
+P00394,doctor consultation,treatment,True
+P00394,treatment,discharge,True
+P00395,registration,triage,True
+P00395,triage,doctor consultation,True
+P00395,doctor consultation,x-ray,True
+P00395,x-ray,laboratory test,False
+P00395,laboratory test,triage,False
+P00395,triage,doctor consultation,True
+P00395,doctor consultation,treatment,True
+P00395,treatment,discharge,True
+P00396,registration,triage,True
+P00396,triage,doctor consultation,True
+P00396,doctor consultation,laboratory test,True
+P00396,laboratory test,doctor consultation,True
+P00396,doctor consultation,treatment,True
+P00396,treatment,discharge,True
+P00397,registration,triage,True
+P00397,triage,doctor consultation,True
+P00397,doctor consultation,x-ray,True
+P00397,x-ray,doctor consultation,True
+P00397,doctor consultation,discharge,True
+P00398,registration,triage,True
+P00398,triage,doctor consultation,True
+P00398,doctor consultation,treatment,True
+P00398,treatment,discharge,True
+P00399,registration,triage,True
+P00399,triage,doctor consultation,True
+P00399,doctor consultation,laboratory test,True
+P00399,laboratory test,triage,False
+P00399,triage,doctor consultation,True
+P00399,doctor consultation,treatment,True
+P00399,treatment,discharge,True
+P00400,registration,triage,True
+P00400,triage,triage,True
+P00400,triage,doctor consultation,True
+P00400,doctor consultation,treatment,True
+P00400,treatment,discharge,True
+P00401,registration,triage,True
+P00401,triage,doctor consultation,True
+P00401,doctor consultation,x-ray,True
+P00401,x-ray,doctor consultation,True
+P00401,doctor consultation,treatment,True
+P00401,treatment,discharge,True
+P00402,registration,triage,True
+P00402,triage,doctor consultation,True
+P00402,doctor consultation,x-ray,True
+P00402,x-ray,laboratory test,False
+P00402,laboratory test,doctor consultation,True
+P00402,doctor consultation,treatment,True
+P00402,treatment,discharge,True
+P00403,registration,triage,True
+P00403,triage,doctor consultation,True
+P00403,doctor consultation,treatment,True
+P00403,treatment,discharge,True
+P00404,registration,triage,True
+P00404,triage,doctor consultation,True
+P00404,doctor consultation,laboratory test,True
+P00404,laboratory test,triage,False
+P00404,triage,doctor consultation,True
+P00404,doctor consultation,treatment,True
+P00404,treatment,discharge,True
+P00405,registration,triage,True
+P00405,triage,triage,True
+P00405,triage,doctor consultation,True
+P00405,doctor consultation,discharge,True
+P00406,registration,triage,True
+P00406,triage,doctor consultation,True
+P00406,doctor consultation,x-ray,True
+P00406,x-ray,laboratory test,False
+P00406,laboratory test,doctor consultation,True
+P00406,doctor consultation,treatment,True
+P00406,treatment,discharge,True
+P00407,registration,triage,True
+P00407,triage,doctor consultation,True
+P00407,doctor consultation,laboratory test,True
+P00407,laboratory test,x-ray,False
+P00407,x-ray,triage,False
+P00407,triage,doctor consultation,True
+P00407,doctor consultation,treatment,True
+P00407,treatment,discharge,True
+P00408,registration,triage,True
+P00408,triage,doctor consultation,True
+P00408,doctor consultation,x-ray,True
+P00408,x-ray,triage,False
+P00408,triage,doctor consultation,True
+P00408,doctor consultation,treatment,True
+P00408,treatment,discharge,True
+P00409,registration,triage,True
+P00409,triage,doctor consultation,True
+P00409,doctor consultation,x-ray,True
+P00409,x-ray,laboratory test,False
+P00409,laboratory test,doctor consultation,True
+P00409,doctor consultation,discharge,True
+P00410,registration,triage,True
+P00410,triage,doctor consultation,True
+P00410,doctor consultation,discharge,True
+P00411,registration,triage,True
+P00411,triage,doctor consultation,True
+P00411,doctor consultation,x-ray,True
+P00411,x-ray,triage,False
+P00411,triage,doctor consultation,True
+P00411,doctor consultation,treatment,True
+P00411,treatment,discharge,True
+P00412,registration,triage,True
+P00412,triage,doctor consultation,True
+P00412,doctor consultation,laboratory test,True
+P00412,laboratory test,x-ray,False
+P00412,x-ray,doctor consultation,True
+P00412,doctor consultation,doctor consultation,True
+P00412,doctor consultation,treatment,True
+P00412,treatment,discharge,True
+P00413,registration,triage,True
+P00413,triage,doctor consultation,True
+P00413,doctor consultation,x-ray,True
+P00413,x-ray,doctor consultation,True
+P00413,doctor consultation,doctor consultation,True
+P00413,doctor consultation,discharge,True
+P00414,registration,triage,True
+P00414,triage,doctor consultation,True
+P00414,doctor consultation,x-ray,True
+P00414,x-ray,triage,False
+P00414,triage,doctor consultation,True
+P00414,doctor consultation,treatment,True
+P00414,treatment,discharge,True
+P00415,registration,triage,True
+P00415,triage,doctor consultation,True
+P00415,doctor consultation,x-ray,True
+P00415,x-ray,doctor consultation,True
+P00415,doctor consultation,treatment,True
+P00415,treatment,discharge,True
+P00416,registration,triage,True
+P00416,triage,doctor consultation,True
+P00416,doctor consultation,x-ray,True
+P00416,x-ray,doctor consultation,True
+P00416,doctor consultation,doctor consultation,True
+P00416,doctor consultation,discharge,True
+P00417,registration,triage,True
+P00417,triage,doctor consultation,True
+P00417,doctor consultation,laboratory test,True
+P00417,laboratory test,doctor consultation,True
+P00417,doctor consultation,treatment,True
+P00417,treatment,discharge,True
+P00418,registration,triage,True
+P00418,triage,doctor consultation,True
+P00418,doctor consultation,laboratory test,True
+P00418,laboratory test,doctor consultation,True
+P00418,doctor consultation,discharge,True
+P00419,registration,triage,True
+P00419,triage,doctor consultation,True
+P00419,doctor consultation,x-ray,True
+P00419,x-ray,laboratory test,False
+P00419,laboratory test,doctor consultation,True
+P00419,doctor consultation,treatment,True
+P00419,treatment,discharge,True
+P00420,registration,triage,True
+P00420,triage,doctor consultation,True
+P00420,doctor consultation,x-ray,True
+P00420,x-ray,doctor consultation,True
+P00420,doctor consultation,doctor consultation,True
+P00420,doctor consultation,treatment,True
+P00420,treatment,discharge,True
+P00421,registration,triage,True
+P00421,triage,doctor consultation,True
+P00421,doctor consultation,x-ray,True
+P00421,x-ray,laboratory test,False
+P00421,laboratory test,triage,False
+P00421,triage,doctor consultation,True
+P00421,doctor consultation,treatment,True
+P00421,treatment,discharge,True
+P00422,registration,triage,True
+P00422,triage,doctor consultation,True
+P00422,doctor consultation,x-ray,True
+P00422,x-ray,doctor consultation,True
+P00422,doctor consultation,discharge,True
+P00423,registration,triage,True
+P00423,triage,triage,True
+P00423,triage,doctor consultation,True
+P00423,doctor consultation,treatment,True
+P00423,treatment,discharge,True
+P00424,registration,triage,True
+P00424,triage,doctor consultation,True
+P00424,doctor consultation,laboratory test,True
+P00424,laboratory test,triage,False
+P00424,triage,doctor consultation,True
+P00424,doctor consultation,treatment,True
+P00424,treatment,discharge,True
+P00425,registration,triage,True
+P00425,triage,doctor consultation,True
+P00425,doctor consultation,x-ray,True
+P00425,x-ray,doctor consultation,True
+P00425,doctor consultation,discharge,True
+P00426,registration,triage,True
+P00426,triage,doctor consultation,True
+P00426,doctor consultation,laboratory test,True
+P00426,laboratory test,doctor consultation,True
+P00426,doctor consultation,discharge,True
+P00427,registration,triage,True
+P00427,triage,triage,True
+P00427,triage,doctor consultation,True
+P00427,doctor consultation,discharge,True
+P00428,registration,triage,True
+P00428,triage,doctor consultation,True
+P00428,doctor consultation,laboratory test,True
+P00428,laboratory test,doctor consultation,True
+P00428,doctor consultation,treatment,True
+P00428,treatment,discharge,True
+P00429,registration,triage,True
+P00429,triage,doctor consultation,True
+P00429,doctor consultation,x-ray,True
+P00429,x-ray,triage,False
+P00429,triage,doctor consultation,True
+P00429,doctor consultation,treatment,True
+P00429,treatment,discharge,True
+P00430,registration,triage,True
+P00430,triage,doctor consultation,True
+P00430,doctor consultation,x-ray,True
+P00430,x-ray,doctor consultation,True
+P00430,doctor consultation,treatment,True
+P00430,treatment,discharge,True
+P00431,registration,triage,True
+P00431,triage,doctor consultation,True
+P00431,doctor consultation,treatment,True
+P00431,treatment,discharge,True
+P00432,registration,triage,True
+P00432,triage,doctor consultation,True
+P00432,doctor consultation,discharge,True
+P00433,registration,triage,True
+P00433,triage,doctor consultation,True
+P00433,doctor consultation,laboratory test,True
+P00433,laboratory test,doctor consultation,True
+P00433,doctor consultation,treatment,True
+P00433,treatment,discharge,True
+P00434,registration,triage,True
+P00434,triage,doctor consultation,True
+P00434,doctor consultation,x-ray,True
+P00434,x-ray,doctor consultation,True
+P00434,doctor consultation,treatment,True
+P00434,treatment,discharge,True
+P00435,registration,triage,True
+P00435,triage,doctor consultation,True
+P00435,doctor consultation,laboratory test,True
+P00435,laboratory test,x-ray,False
+P00435,x-ray,doctor consultation,True
+P00435,doctor consultation,treatment,True
+P00435,treatment,discharge,True
+P00436,registration,triage,True
+P00436,triage,doctor consultation,True
+P00436,doctor consultation,treatment,True
+P00436,treatment,discharge,True
+P00437,registration,triage,True
+P00437,triage,doctor consultation,True
+P00437,doctor consultation,x-ray,True
+P00437,x-ray,laboratory test,False
+P00437,laboratory test,doctor consultation,True
+P00437,doctor consultation,discharge,True
+P00438,registration,triage,True
+P00438,triage,doctor consultation,True
+P00438,doctor consultation,x-ray,True
+P00438,x-ray,doctor consultation,True
+P00438,doctor consultation,treatment,True
+P00438,treatment,discharge,True
+P00439,registration,triage,True
+P00439,triage,doctor consultation,True
+P00439,doctor consultation,x-ray,True
+P00439,x-ray,laboratory test,False
+P00439,laboratory test,triage,False
+P00439,triage,doctor consultation,True
+P00439,doctor consultation,discharge,True
+P00440,registration,triage,True
+P00440,triage,doctor consultation,True
+P00440,doctor consultation,x-ray,True
+P00440,x-ray,doctor consultation,True
+P00440,doctor consultation,discharge,True
+P00441,registration,triage,True
+P00441,triage,doctor consultation,True
+P00441,doctor consultation,laboratory test,True
+P00441,laboratory test,triage,False
+P00441,triage,doctor consultation,True
+P00441,doctor consultation,treatment,True
+P00441,treatment,discharge,True
+P00442,registration,triage,True
+P00442,triage,doctor consultation,True
+P00442,doctor consultation,x-ray,True
+P00442,x-ray,doctor consultation,True
+P00442,doctor consultation,doctor consultation,True
+P00442,doctor consultation,discharge,True
+P00443,registration,triage,True
+P00443,triage,doctor consultation,True
+P00443,doctor consultation,treatment,True
+P00443,treatment,discharge,True
+P00444,registration,triage,True
+P00444,triage,doctor consultation,True
+P00444,doctor consultation,x-ray,True
+P00444,x-ray,laboratory test,False
+P00444,laboratory test,doctor consultation,True
+P00444,doctor consultation,treatment,True
+P00444,treatment,discharge,True
+P00445,registration,triage,True
+P00445,triage,doctor consultation,True
+P00445,doctor consultation,x-ray,True
+P00445,x-ray,laboratory test,False
+P00445,laboratory test,doctor consultation,True
+P00445,doctor consultation,doctor consultation,True
+P00445,doctor consultation,treatment,True
+P00445,treatment,discharge,True
+P00446,registration,triage,True
+P00446,triage,triage,True
+P00446,triage,doctor consultation,True
+P00446,doctor consultation,discharge,True
+P00447,registration,triage,True
+P00447,triage,doctor consultation,True
+P00447,doctor consultation,laboratory test,True
+P00447,laboratory test,triage,False
+P00447,triage,doctor consultation,True
+P00447,doctor consultation,discharge,True
+P00448,registration,triage,True
+P00448,triage,doctor consultation,True
+P00448,doctor consultation,laboratory test,True
+P00448,laboratory test,doctor consultation,True
+P00448,doctor consultation,discharge,True
+P00449,registration,triage,True
+P00449,triage,doctor consultation,True
+P00449,doctor consultation,laboratory test,True
+P00449,laboratory test,triage,False
+P00449,triage,doctor consultation,True
+P00449,doctor consultation,treatment,True
+P00449,treatment,discharge,True
+P00450,registration,triage,True
+P00450,triage,doctor consultation,True
+P00450,doctor consultation,x-ray,True
+P00450,x-ray,doctor consultation,True
+P00450,doctor consultation,doctor consultation,True
+P00450,doctor consultation,discharge,True
+P00451,registration,triage,True
+P00451,triage,doctor consultation,True
+P00451,doctor consultation,x-ray,True
+P00451,x-ray,doctor consultation,True
+P00451,doctor consultation,doctor consultation,True
+P00451,doctor consultation,treatment,True
+P00451,treatment,discharge,True
+P00452,registration,triage,True
+P00452,triage,doctor consultation,True
+P00452,doctor consultation,treatment,True
+P00452,treatment,discharge,True
+P00453,registration,triage,True
+P00453,triage,doctor consultation,True
+P00453,doctor consultation,x-ray,True
+P00453,x-ray,triage,False
+P00453,triage,doctor consultation,True
+P00453,doctor consultation,treatment,True
+P00453,treatment,discharge,True
+P00454,registration,triage,True
+P00454,triage,doctor consultation,True
+P00454,doctor consultation,laboratory test,True
+P00454,laboratory test,doctor consultation,True
+P00454,doctor consultation,treatment,True
+P00454,treatment,discharge,True
+P00455,registration,triage,True
+P00455,triage,doctor consultation,True
+P00455,doctor consultation,x-ray,True
+P00455,x-ray,doctor consultation,True
+P00455,doctor consultation,discharge,True
+P00456,registration,triage,True
+P00456,triage,doctor consultation,True
+P00456,doctor consultation,laboratory test,True
+P00456,laboratory test,x-ray,False
+P00456,x-ray,triage,False
+P00456,triage,doctor consultation,True
+P00456,doctor consultation,discharge,True
+P00457,registration,triage,True
+P00457,triage,doctor consultation,True
+P00457,doctor consultation,laboratory test,True
+P00457,laboratory test,doctor consultation,True
+P00457,doctor consultation,discharge,True
+P00458,registration,triage,True
+P00458,triage,triage,True
+P00458,triage,doctor consultation,True
+P00458,doctor consultation,discharge,True
+P00459,registration,triage,True
+P00459,triage,doctor consultation,True
+P00459,doctor consultation,laboratory test,True
+P00459,laboratory test,triage,False
+P00459,triage,doctor consultation,True
+P00459,doctor consultation,treatment,True
+P00459,treatment,discharge,True
+P00460,registration,triage,True
+P00460,triage,doctor consultation,True
+P00460,doctor consultation,x-ray,True
+P00460,x-ray,laboratory test,False
+P00460,laboratory test,doctor consultation,True
+P00460,doctor consultation,discharge,True
+P00461,registration,triage,True
+P00461,triage,doctor consultation,True
+P00461,doctor consultation,laboratory test,True
+P00461,laboratory test,x-ray,False
+P00461,x-ray,doctor consultation,True
+P00461,doctor consultation,treatment,True
+P00461,treatment,discharge,True
+P00462,registration,triage,True
+P00462,triage,doctor consultation,True
+P00462,doctor consultation,laboratory test,True
+P00462,laboratory test,doctor consultation,True
+P00462,doctor consultation,doctor consultation,True
+P00462,doctor consultation,treatment,True
+P00462,treatment,discharge,True
+P00463,registration,triage,True
+P00463,triage,doctor consultation,True
+P00463,doctor consultation,x-ray,True
+P00463,x-ray,laboratory test,False
+P00463,laboratory test,doctor consultation,True
+P00463,doctor consultation,treatment,True
+P00463,treatment,discharge,True
+P00464,registration,triage,True
+P00464,triage,triage,True
+P00464,triage,doctor consultation,True
+P00464,doctor consultation,treatment,True
+P00464,treatment,discharge,True
+P00465,registration,triage,True
+P00465,triage,doctor consultation,True
+P00465,doctor consultation,treatment,True
+P00465,treatment,discharge,True
+P00466,registration,triage,True
+P00466,triage,doctor consultation,True
+P00466,doctor consultation,x-ray,True
+P00466,x-ray,laboratory test,False
+P00466,laboratory test,doctor consultation,True
+P00466,doctor consultation,treatment,True
+P00466,treatment,discharge,True
+P00467,registration,triage,True
+P00467,triage,triage,True
+P00467,triage,doctor consultation,True
+P00467,doctor consultation,discharge,True
+P00468,registration,triage,True
+P00468,triage,triage,True
+P00468,triage,doctor consultation,True
+P00468,doctor consultation,treatment,True
+P00468,treatment,discharge,True
+P00469,registration,triage,True
+P00469,triage,doctor consultation,True
+P00469,doctor consultation,laboratory test,True
+P00469,laboratory test,x-ray,False
+P00469,x-ray,doctor consultation,True
+P00469,doctor consultation,treatment,True
+P00469,treatment,discharge,True
+P00470,registration,triage,True
+P00470,triage,doctor consultation,True
+P00470,doctor consultation,x-ray,True
+P00470,x-ray,laboratory test,False
+P00470,laboratory test,doctor consultation,True
+P00470,doctor consultation,discharge,True
+P00471,registration,triage,True
+P00471,triage,doctor consultation,True
+P00471,doctor consultation,x-ray,True
+P00471,x-ray,triage,False
+P00471,triage,doctor consultation,True
+P00471,doctor consultation,discharge,True
+P00472,registration,triage,True
+P00472,triage,doctor consultation,True
+P00472,doctor consultation,treatment,True
+P00472,treatment,discharge,True
+P00473,registration,triage,True
+P00473,triage,doctor consultation,True
+P00473,doctor consultation,x-ray,True
+P00473,x-ray,laboratory test,False
+P00473,laboratory test,doctor consultation,True
+P00473,doctor consultation,treatment,True
+P00473,treatment,discharge,True
+P00474,registration,triage,True
+P00474,triage,doctor consultation,True
+P00474,doctor consultation,x-ray,True
+P00474,x-ray,doctor consultation,True
+P00474,doctor consultation,doctor consultation,True
+P00474,doctor consultation,treatment,True
+P00474,treatment,discharge,True
+P00475,registration,triage,True
+P00475,triage,doctor consultation,True
+P00475,doctor consultation,laboratory test,True
+P00475,laboratory test,doctor consultation,True
+P00475,doctor consultation,doctor consultation,True
+P00475,doctor consultation,treatment,True
+P00475,treatment,discharge,True
+P00476,registration,triage,True
+P00476,triage,doctor consultation,True
+P00476,doctor consultation,laboratory test,True
+P00476,laboratory test,doctor consultation,True
+P00476,doctor consultation,treatment,True
+P00476,treatment,discharge,True
+P00477,registration,triage,True
+P00477,triage,doctor consultation,True
+P00477,doctor consultation,x-ray,True
+P00477,x-ray,doctor consultation,True
+P00477,doctor consultation,doctor consultation,True
+P00477,doctor consultation,treatment,True
+P00477,treatment,discharge,True
+P00478,registration,triage,True
+P00478,triage,doctor consultation,True
+P00478,doctor consultation,laboratory test,True
+P00478,laboratory test,x-ray,False
+P00478,x-ray,doctor consultation,True
+P00478,doctor consultation,discharge,True
+P00479,registration,triage,True
+P00479,triage,doctor consultation,True
+P00479,doctor consultation,laboratory test,True
+P00479,laboratory test,doctor consultation,True
+P00479,doctor consultation,doctor consultation,True
+P00479,doctor consultation,treatment,True
+P00479,treatment,discharge,True
+P00480,registration,triage,True
+P00480,triage,doctor consultation,True
+P00480,doctor consultation,doctor consultation,True
+P00480,doctor consultation,treatment,True
+P00480,treatment,discharge,True
+P00481,registration,triage,True
+P00481,triage,doctor consultation,True
+P00481,doctor consultation,laboratory test,True
+P00481,laboratory test,x-ray,False
+P00481,x-ray,doctor consultation,True
+P00481,doctor consultation,treatment,True
+P00481,treatment,discharge,True
+P00482,registration,triage,True
+P00482,triage,doctor consultation,True
+P00482,doctor consultation,laboratory test,True
+P00482,laboratory test,doctor consultation,True
+P00482,doctor consultation,discharge,True
+P00483,registration,triage,True
+P00483,triage,doctor consultation,True
+P00483,doctor consultation,x-ray,True
+P00483,x-ray,laboratory test,False
+P00483,laboratory test,doctor consultation,True
+P00483,doctor consultation,discharge,True
+P00484,registration,triage,True
+P00484,triage,doctor consultation,True
+P00484,doctor consultation,laboratory test,True
+P00484,laboratory test,x-ray,False
+P00484,x-ray,triage,False
+P00484,triage,doctor consultation,True
+P00484,doctor consultation,treatment,True
+P00484,treatment,discharge,True
+P00485,registration,triage,True
+P00485,triage,triage,True
+P00485,triage,doctor consultation,True
+P00485,doctor consultation,treatment,True
+P00485,treatment,discharge,True
+P00486,registration,triage,True
+P00486,triage,doctor consultation,True
+P00486,doctor consultation,laboratory test,True
+P00486,laboratory test,doctor consultation,True
+P00486,doctor consultation,treatment,True
+P00486,treatment,discharge,True
+P00487,registration,triage,True
+P00487,triage,doctor consultation,True
+P00487,doctor consultation,laboratory test,True
+P00487,laboratory test,x-ray,False
+P00487,x-ray,triage,False
+P00487,triage,doctor consultation,True
+P00487,doctor consultation,discharge,True
+P00488,registration,triage,True
+P00488,triage,doctor consultation,True
+P00488,doctor consultation,x-ray,True
+P00488,x-ray,doctor consultation,True
+P00488,doctor consultation,doctor consultation,True
+P00488,doctor consultation,treatment,True
+P00488,treatment,discharge,True
+P00489,registration,triage,True
+P00489,triage,doctor consultation,True
+P00489,doctor consultation,laboratory test,True
+P00489,laboratory test,doctor consultation,True
+P00489,doctor consultation,treatment,True
+P00489,treatment,discharge,True
+P00490,registration,triage,True
+P00490,triage,doctor consultation,True
+P00490,doctor consultation,laboratory test,True
+P00490,laboratory test,doctor consultation,True
+P00490,doctor consultation,discharge,True
+P00491,registration,triage,True
+P00491,triage,doctor consultation,True
+P00491,doctor consultation,x-ray,True
+P00491,x-ray,doctor consultation,True
+P00491,doctor consultation,treatment,True
+P00491,treatment,discharge,True
+P00492,registration,triage,True
+P00492,triage,doctor consultation,True
+P00492,doctor consultation,laboratory test,True
+P00492,laboratory test,x-ray,False
+P00492,x-ray,doctor consultation,True
+P00492,doctor consultation,doctor consultation,True
+P00492,doctor consultation,treatment,True
+P00492,treatment,discharge,True
+P00493,registration,triage,True
+P00493,triage,doctor consultation,True
+P00493,doctor consultation,treatment,True
+P00493,treatment,discharge,True
+P00494,registration,triage,True
+P00494,triage,doctor consultation,True
+P00494,doctor consultation,laboratory test,True
+P00494,laboratory test,x-ray,False
+P00494,x-ray,doctor consultation,True
+P00494,doctor consultation,treatment,True
+P00494,treatment,discharge,True
+P00495,registration,triage,True
+P00495,triage,triage,True
+P00495,triage,doctor consultation,True
+P00495,doctor consultation,treatment,True
+P00495,treatment,discharge,True
+P00496,registration,triage,True
+P00496,triage,doctor consultation,True
+P00496,doctor consultation,laboratory test,True
+P00496,laboratory test,x-ray,False
+P00496,x-ray,doctor consultation,True
+P00496,doctor consultation,discharge,True
+P00497,registration,triage,True
+P00497,triage,doctor consultation,True
+P00497,doctor consultation,x-ray,True
+P00497,x-ray,laboratory test,False
+P00497,laboratory test,triage,False
+P00497,triage,doctor consultation,True
+P00497,doctor consultation,treatment,True
+P00497,treatment,discharge,True
+P00498,registration,triage,True
+P00498,triage,doctor consultation,True
+P00498,doctor consultation,treatment,True
+P00498,treatment,discharge,True
+P00499,registration,triage,True
+P00499,triage,doctor consultation,True
+P00499,doctor consultation,laboratory test,True
+P00499,laboratory test,triage,False
+P00499,triage,doctor consultation,True
+P00499,doctor consultation,treatment,True
+P00499,treatment,discharge,True
+P00500,registration,triage,True
+P00500,triage,doctor consultation,True
+P00500,doctor consultation,x-ray,True
+P00500,x-ray,laboratory test,False
+P00500,laboratory test,doctor consultation,True
+P00500,doctor consultation,discharge,True
