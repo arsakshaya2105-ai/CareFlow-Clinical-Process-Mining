@@ -1,65 +1,40 @@
-"""Rule-based conformance check for CareFlow's documented reference pathway.
-Run: python process_mining/conformance_check.py --input data/careflow_cleaned_event_logs.csv --output process_mining/outputs
-This is a transparent, configurable transition-rule check, not PM4Py token replay.
-"""
-import argparse
+#!/usr/bin/env python3
+"""Rule-based CareFlow conformance checker. Usage: python conformance_check.py input.csv --output-dir outputs"""
+import argparse, json
 from pathlib import Path
 import pandas as pd
-
 ALLOWED = {
-    ("registration", "triage"),
-    ("triage", "doctor consultation"),
-    ("triage", "triage"),  # repeat triage / reassessment
-    ("doctor consultation", "doctor consultation"),  # repeat consultation
-    ("doctor consultation", "laboratory test"),
-    ("doctor consultation", "x-ray"),
-    ("doctor consultation", "treatment"),
-    ("doctor consultation", "discharge"),
-    ("laboratory test", "doctor consultation"),
-    ("x-ray", "doctor consultation"),
-    ("treatment", "discharge"),
+    "registration": {"triage"},
+    "triage": {"triage", "doctor consultation"},
+    "doctor consultation": {"doctor consultation", "laboratory test", "x-ray", "treatment"},
+    "laboratory test": {"doctor consultation"},
+    "x-ray": {"doctor consultation"},
+    "treatment": {"discharge"},
+    "discharge": set(),
 }
-START = "registration"
-END = "discharge"
-
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument('--input', default='data/careflow_cleaned_event_logs.csv')
-    ap.add_argument('--output', default='process_mining/outputs')
-    args = ap.parse_args()
-    out = Path(args.output); out.mkdir(parents=True, exist_ok=True)
-    df = pd.read_csv(args.input)
-    df.columns = [c.strip().lower() for c in df.columns]
-    df['event_timestamp'] = pd.to_datetime(df['event_timestamp'], utc=True, errors='coerce')
-    df = df.dropna(subset=['case_id','activity_name','event_timestamp'])
-    df['activity_name'] = df['activity_name'].astype(str).str.strip().str.lower()
-    df = df.sort_values(['case_id','event_timestamp','event_id'])
-    transitions=[]; cases=[]
-    for case, g in df.groupby('case_id', sort=False):
-        acts=g.activity_name.tolist()
-        violations=[]
-        if not acts or acts[0] != START: violations.append(f'Invalid start: {acts[0] if acts else "EMPTY"}')
-        if not acts or acts[-1] != END: violations.append(f'Invalid end: {acts[-1] if acts else "EMPTY"}')
-        for a,b in zip(acts,acts[1:]):
-            ok=(a,b) in ALLOWED
-            transitions.append({'case_id':case,'from_activity':a,'to_activity':b,'conforms':ok})
-            if not ok: violations.append(f'Unexpected transition: {a} -> {b}')
-        cases.append({'case_id':case,'event_count':len(acts),'start_activity':acts[0] if acts else '',
-                      'end_activity':acts[-1] if acts else '', 'conforms':len(violations)==0,
-                      'violation_count':len(violations),'violations':' | '.join(violations)})
-    t=pd.DataFrame(transitions); c=pd.DataFrame(cases)
-    t.to_csv(out/'conformance_transition_details.csv',index=False)
-    c.to_csv(out/'conformance_case_results.csv',index=False)
-    summary=pd.DataFrame([{
-      'cases_checked':len(c),'conforming_cases':int(c.conforms.sum()),
-      'nonconforming_cases':int((~c.conforms).sum()),
-      'case_conformance_pct':round(c.conforms.mean()*100,2) if len(c) else 0,
-      'transitions_checked':len(t),'conforming_transitions':int(t.conforms.sum()),
-      'nonconforming_transitions':int((~t.conforms).sum()),
-      'transition_conformance_pct':round(t.conforms.mean()*100,2) if len(t) else 0,
-    }])
-    summary.to_csv(out/'conformance_summary.csv',index=False)
-    print(summary.to_string(index=False))
-    if len(t): print('\nUnexpected transitions:\n',t[~t.conforms].groupby(['from_activity','to_activity']).size().sort_values(ascending=False).to_string())
-    print('\nNOTE: Reference rules are an explicit project assumption. Review with a clinical/process owner before interpreting deviations.')
-if __name__=='__main__': main()
+def check(input_csv, output_dir):
+    df=pd.read_csv(input_csv)
+    required={"case_id","event_id","activity_name","event_timestamp"}
+    if not required.issubset(df.columns): raise ValueError(f"Missing columns: {required-set(df.columns)}")
+    df["event_timestamp"]=pd.to_datetime(df["event_timestamp"],utc=True,errors="coerce")
+    df["activity_name"]=df["activity_name"].astype(str).str.strip().str.lower()
+    df=df.dropna(subset=["event_timestamp"]).sort_values(["case_id","event_timestamp","event_id"])
+    cases=[]; transitions=[]
+    for case,g in df.groupby("case_id",sort=True):
+        acts=g.activity_name.tolist(); ts=g.event_timestamp.tolist(); errors=[]
+        if not acts or acts[0] != "registration": errors.append({"type":"unexpected_start","position":1,"detail":"Expected registration"})
+        if not acts or acts[-1] != "discharge": errors.append({"type":"unexpected_end","position":len(acts),"detail":"Expected discharge"})
+        for i,(a,b) in enumerate(zip(acts,acts[1:]),1):
+            ok=b in ALLOWED.get(a,set())
+            transitions.append({"case_id":case,"from_activity":a,"to_activity":b,"transition_position":i,"is_allowed":ok})
+            if not ok: errors.append({"type":"unexpected_transition","position":i+1,"detail":f"{a} -> {b}"})
+        repeats={a:int(n) for a,n in pd.Series(acts).value_counts().items() if n>1}
+        cases.append({"case_id":case,"event_count":len(acts),"activity_sequence":" -> ".join(acts),"is_conforming":not errors,"violation_count":len(errors),"violations":json.dumps(errors),"repeated_activities":json.dumps(repeats),"journey_duration_minutes":round((ts[-1]-ts[0]).total_seconds()/60,2) if len(ts)>1 else 0})
+    out=Path(output_dir); out.mkdir(parents=True,exist_ok=True)
+    c=pd.DataFrame(cases); t=pd.DataFrame(transitions)
+    c.to_csv(out/"case_conformance_results.csv",index=False); t.to_csv(out/"transition_conformance_results.csv",index=False)
+    summary={"cases_analyzed":int(c.case_id.nunique()),"events_analyzed":int(len(df)),"conforming_cases":int(c.is_conforming.sum()),"non_conforming_cases":int((~c.is_conforming).sum()),"case_conformance_rate_pct":round(float(c.is_conforming.mean()*100),2),"total_transitions":int(len(t)),"unexpected_transitions":int((~t.is_allowed).sum()),"transition_conformance_rate_pct":round(float(t.is_allowed.mean()*100),2),"method":"Rule-based trace and directly-follows conformance; not PM4Py token replay."}
+    (out/"conformance_summary.json").write_text(json.dumps(summary,indent=2))
+    print(json.dumps(summary,indent=2))
+if __name__=="__main__":
+    p=argparse.ArgumentParser(); p.add_argument("input_csv"); p.add_argument("--output-dir",default="outputs"); a=p.parse_args(); check(a.input_csv,a.output_dir)
