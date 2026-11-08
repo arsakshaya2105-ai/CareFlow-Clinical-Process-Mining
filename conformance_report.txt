@@ -1,0 +1,33 @@
+CAREFLOW – CONFORMANCE CHECKING RESULTS
+========================================
+
+Input: /mnt/data/careflow_cleaned_event_logs.csv
+Cases analyzed: 500
+Events analyzed: 3472
+Distinct activities: 7
+
+CASE-LEVEL RESULTS
+- Conforming cases: 220
+- Non-conforming cases: 280
+- Case conformance rate: 44.0%
+
+TRANSITION-LEVEL RESULTS
+- Allowed observed transitions: 2603
+- Unexpected transitions: 369
+- Total transitions: 2972
+- Transition conformance rate: 87.58%
+
+MODEL ASSUMPTIONS
+- Registration must start each case and Discharge must end it.
+- Registration -> Triage.
+- Triage may repeat, then proceed to Doctor Consultation.
+- Doctor Consultation may repeat, lead to Laboratory Test or X-Ray, or proceed to Treatment.
+- Laboratory Test and X-Ray must be followed by Doctor Consultation.
+- Treatment -> Discharge.
+- The diagnostic steps are optional.
+
+TESTS
+- Automated rule tests: 6; status: PASS.
+
+IMPORTANT LIMITATION
+This is a transparent rule-based conformance checker using the reference rules above. It is not PM4Py token replay or alignment-based conformance. Results depend on these assumptions and should be reviewed by the project team; deviations are investigation flags, not proof of clinical error.

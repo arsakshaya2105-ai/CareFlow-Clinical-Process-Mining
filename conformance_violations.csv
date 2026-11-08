@@ -1,0 +1,370 @@
+case_id,type,position,activity,detail
+P00002,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00002,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00003,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00003,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00005,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00006,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00007,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00008,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00008,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00009,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00009,unexpected_transition,6,triage,x-ray -> triage is not allowed
+P00010,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00010,unexpected_transition,6,triage,laboratory test -> triage is not allowed
+P00011,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00011,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00013,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00014,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00015,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00015,unexpected_transition,8,discharge,doctor consultation -> discharge is not allowed
+P00016,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00017,unexpected_transition,4,discharge,doctor consultation -> discharge is not allowed
+P00018,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00019,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00020,unexpected_transition,4,discharge,doctor consultation -> discharge is not allowed
+P00022,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00022,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00025,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00025,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00026,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00028,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00033,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00041,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00042,unexpected_transition,4,discharge,doctor consultation -> discharge is not allowed
+P00044,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00045,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00046,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00047,unexpected_transition,4,discharge,doctor consultation -> discharge is not allowed
+P00048,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00050,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00056,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00056,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00059,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00061,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00063,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00063,unexpected_transition,6,triage,laboratory test -> triage is not allowed
+P00064,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00065,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00066,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00066,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00067,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00069,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00071,unexpected_transition,5,discharge,doctor consultation -> discharge is not allowed
+P00072,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00074,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00080,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00082,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00084,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00085,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00086,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00087,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00088,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00088,unexpected_transition,6,triage,laboratory test -> triage is not allowed
+P00091,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00092,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00092,unexpected_transition,8,discharge,doctor consultation -> discharge is not allowed
+P00093,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00098,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00102,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00103,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00106,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00108,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00110,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00111,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00111,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00112,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00114,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00116,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00118,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00119,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00119,unexpected_transition,8,discharge,doctor consultation -> discharge is not allowed
+P00120,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00120,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00122,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00125,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00125,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00127,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00127,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00128,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00128,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00130,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00130,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00136,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00139,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00141,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00150,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00151,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00151,unexpected_transition,6,triage,laboratory test -> triage is not allowed
+P00153,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00154,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00154,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00155,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00156,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00156,unexpected_transition,6,triage,laboratory test -> triage is not allowed
+P00156,unexpected_transition,8,discharge,doctor consultation -> discharge is not allowed
+P00159,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00160,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00161,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00162,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00165,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00165,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00166,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00167,unexpected_transition,5,discharge,doctor consultation -> discharge is not allowed
+P00168,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00169,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00169,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00172,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00172,unexpected_transition,6,triage,x-ray -> triage is not allowed
+P00172,unexpected_transition,8,discharge,doctor consultation -> discharge is not allowed
+P00173,unexpected_transition,4,discharge,doctor consultation -> discharge is not allowed
+P00174,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00174,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00175,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00178,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00178,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00181,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00182,unexpected_transition,4,discharge,doctor consultation -> discharge is not allowed
+P00184,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00184,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00185,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00186,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00186,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00187,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00189,unexpected_transition,5,discharge,doctor consultation -> discharge is not allowed
+P00191,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00191,unexpected_transition,6,triage,laboratory test -> triage is not allowed
+P00191,unexpected_transition,8,discharge,doctor consultation -> discharge is not allowed
+P00192,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00193,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00194,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00197,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00198,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00199,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00200,unexpected_transition,5,discharge,doctor consultation -> discharge is not allowed
+P00201,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00205,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00206,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00207,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00207,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00210,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00212,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00215,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00215,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00216,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00216,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00218,unexpected_transition,4,discharge,doctor consultation -> discharge is not allowed
+P00223,unexpected_transition,5,discharge,doctor consultation -> discharge is not allowed
+P00230,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00235,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00236,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00237,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00237,unexpected_transition,6,triage,laboratory test -> triage is not allowed
+P00239,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00239,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00240,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00241,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00241,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00242,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00242,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00244,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00244,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00248,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00249,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00251,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00251,unexpected_transition,8,discharge,doctor consultation -> discharge is not allowed
+P00253,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00253,unexpected_transition,6,triage,x-ray -> triage is not allowed
+P00254,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00254,unexpected_transition,6,triage,x-ray -> triage is not allowed
+P00254,unexpected_transition,8,discharge,doctor consultation -> discharge is not allowed
+P00255,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00256,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00260,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00261,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00262,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00262,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00264,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00265,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00266,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00267,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00267,unexpected_transition,8,discharge,doctor consultation -> discharge is not allowed
+P00268,unexpected_transition,4,discharge,doctor consultation -> discharge is not allowed
+P00269,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00270,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00273,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00274,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00275,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00275,unexpected_transition,6,triage,laboratory test -> triage is not allowed
+P00276,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00277,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00278,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00279,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00281,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00282,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00284,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00285,unexpected_transition,4,discharge,doctor consultation -> discharge is not allowed
+P00286,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00286,unexpected_transition,6,triage,x-ray -> triage is not allowed
+P00287,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00287,unexpected_transition,8,discharge,doctor consultation -> discharge is not allowed
+P00288,unexpected_transition,4,discharge,doctor consultation -> discharge is not allowed
+P00289,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00289,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00290,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00291,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00291,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00292,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00292,unexpected_transition,6,triage,laboratory test -> triage is not allowed
+P00293,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00295,unexpected_transition,4,discharge,doctor consultation -> discharge is not allowed
+P00298,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00299,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00302,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00303,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00306,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00306,unexpected_transition,6,triage,laboratory test -> triage is not allowed
+P00307,unexpected_transition,4,discharge,doctor consultation -> discharge is not allowed
+P00309,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00309,unexpected_transition,6,triage,x-ray -> triage is not allowed
+P00310,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00311,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00312,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00312,unexpected_transition,6,triage,x-ray -> triage is not allowed
+P00314,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00315,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00318,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00320,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00321,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00322,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00323,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00325,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00328,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00329,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00330,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00331,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00332,unexpected_transition,4,discharge,doctor consultation -> discharge is not allowed
+P00334,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00334,unexpected_transition,8,discharge,doctor consultation -> discharge is not allowed
+P00336,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00336,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00338,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00339,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00339,unexpected_transition,6,triage,x-ray -> triage is not allowed
+P00342,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00346,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00347,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00347,unexpected_transition,6,triage,laboratory test -> triage is not allowed
+P00349,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00350,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00353,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00355,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00355,unexpected_transition,8,discharge,doctor consultation -> discharge is not allowed
+P00357,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00357,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00358,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00362,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00362,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00363,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00365,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00370,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00373,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00375,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00378,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00378,unexpected_transition,6,triage,x-ray -> triage is not allowed
+P00378,unexpected_transition,8,discharge,doctor consultation -> discharge is not allowed
+P00380,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00384,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00387,unexpected_transition,4,discharge,doctor consultation -> discharge is not allowed
+P00389,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00391,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00391,unexpected_transition,8,discharge,doctor consultation -> discharge is not allowed
+P00392,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00395,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00395,unexpected_transition,6,triage,laboratory test -> triage is not allowed
+P00397,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00399,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00402,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00404,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00405,unexpected_transition,5,discharge,doctor consultation -> discharge is not allowed
+P00406,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00407,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00407,unexpected_transition,6,triage,x-ray -> triage is not allowed
+P00408,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00409,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00409,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00410,unexpected_transition,4,discharge,doctor consultation -> discharge is not allowed
+P00411,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00412,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00413,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00414,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00416,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00418,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00419,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00421,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00421,unexpected_transition,6,triage,laboratory test -> triage is not allowed
+P00422,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00424,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00425,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00426,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00427,unexpected_transition,5,discharge,doctor consultation -> discharge is not allowed
+P00429,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00432,unexpected_transition,4,discharge,doctor consultation -> discharge is not allowed
+P00435,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00437,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00437,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00439,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00439,unexpected_transition,6,triage,laboratory test -> triage is not allowed
+P00439,unexpected_transition,8,discharge,doctor consultation -> discharge is not allowed
+P00440,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00441,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00442,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00444,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00445,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00446,unexpected_transition,5,discharge,doctor consultation -> discharge is not allowed
+P00447,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00447,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00448,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00449,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00450,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00453,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00455,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00456,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00456,unexpected_transition,6,triage,x-ray -> triage is not allowed
+P00456,unexpected_transition,8,discharge,doctor consultation -> discharge is not allowed
+P00457,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00458,unexpected_transition,5,discharge,doctor consultation -> discharge is not allowed
+P00459,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00460,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00460,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00461,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00463,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00466,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00467,unexpected_transition,5,discharge,doctor consultation -> discharge is not allowed
+P00469,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00470,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00470,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00471,unexpected_transition,5,triage,x-ray -> triage is not allowed
+P00471,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00473,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00478,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00478,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00481,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00482,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00483,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00483,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00484,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00484,unexpected_transition,6,triage,x-ray -> triage is not allowed
+P00487,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00487,unexpected_transition,6,triage,x-ray -> triage is not allowed
+P00487,unexpected_transition,8,discharge,doctor consultation -> discharge is not allowed
+P00490,unexpected_transition,6,discharge,doctor consultation -> discharge is not allowed
+P00492,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00494,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00496,unexpected_transition,5,x-ray,laboratory test -> x-ray is not allowed
+P00496,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed
+P00497,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00497,unexpected_transition,6,triage,laboratory test -> triage is not allowed
+P00499,unexpected_transition,5,triage,laboratory test -> triage is not allowed
+P00500,unexpected_transition,5,laboratory test,x-ray -> laboratory test is not allowed
+P00500,unexpected_transition,7,discharge,doctor consultation -> discharge is not allowed

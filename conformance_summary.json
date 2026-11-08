@@ -1,0 +1,41 @@
+{
+  "source_file": "/mnt/data/careflow_cleaned_event_logs.csv",
+  "cases_analyzed": 500,
+  "events_analyzed": 3472,
+  "activities_observed": 7,
+  "conforming_cases": 220,
+  "non_conforming_cases": 280,
+  "case_conformance_rate_pct": 44.0,
+  "allowed_transitions": 2603,
+  "unexpected_transitions": 369,
+  "total_transitions": 2972,
+  "transition_conformance_rate_pct": 87.58,
+  "cases_with_repeated_triage": 126,
+  "cases_with_repeated_consultation": 410,
+  "reference_model_rules": {
+    "registration": [
+      "triage"
+    ],
+    "triage": [
+      "doctor consultation",
+      "triage"
+    ],
+    "doctor consultation": [
+      "doctor consultation",
+      "laboratory test",
+      "treatment",
+      "x-ray"
+    ],
+    "laboratory test": [
+      "doctor consultation"
+    ],
+    "x-ray": [
+      "doctor consultation"
+    ],
+    "treatment": [
+      "discharge"
+    ],
+    "discharge": []
+  },
+  "method": "Rule-based trace and directly-follows conformance check; not PM4Py token replay."
+}
